@@ -38,4 +38,6 @@ try {
   if ($LASTEXITCODE -ne 0) {throw 'Maildir disk checks failed'}
   node tools/test-mime.mjs
   if ($LASTEXITCODE -ne 0) {throw 'MIME checks failed'}
+  node tools/test-mime-text.mjs
+  if ($LASTEXITCODE -ne 0) {throw 'MIME text checks failed'}
 } finally {Pop-Location}

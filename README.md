@@ -91,6 +91,15 @@ console.log(box.read(key).toString());
 
 `parse_mime(Bytes)` 返回 MimePart，包含有序重复保留的 fields、media_type、Content-Type parameters、解码后的 body 和 children。支持 multipart 混合/替代及嵌套边界、message/rfc822、7bit/8bit/binary 原始字节、Base64 和 Quoted-Printable（含软换行）。附件体返回 Bytes，不经文本转码；前导/尾随 multipart 说明文本不保留到树中。
 
-以 [RFC 2045](https://www.rfc-editor.org/rfc/rfc2045.txt) 和 [RFC 2046](https://www.rfc-editor.org/rfc/rfc2046.txt) 的结构为参考独立实现。限制为 1 MiB 输入、32 层嵌套、512 个部件。缺失结束边界、重复 MIME 控制头、未知传输编码和破损编码会报错。当前未实现 RFC 2047 头部 encoded-word、RFC 2231 扩展参数、注释语法、字符集转换、MIME 写出或 Python 的全部容错行为；不声称完整 MIME 兼容。
+以 [RFC 2045](https://www.rfc-editor.org/rfc/rfc2045.txt) 和 [RFC 2046](https://www.rfc-editor.org/rfc/rfc2046.txt) 的结构为参考独立实现。限制为 1 MiB 输入、32 层嵌套、512 个部件。缺失结束边界、重复 MIME 控制头、未知传输编码和破损编码会报错。现已补 RFC 2047 B/Q 显示解码和三种基础字符集；尚无 RFC 2231 扩展参数、注释语法、其他字符集、MIME 写出或 Python 的全部容错行为；不声称完整 MIME 兼容。
 
 Node 可从 web/engine.mjs 导入 `mime_summary(base64Message)` 查看实际 MoonBit 解析树的简要结果。正式接口在 `pkg.generated.mbti`。运行 `node tools/test-mime.mjs`，本轮 7 个 Python 独立对照、1 个嵌套邮件结果及 4 个错误场景通过；仅验证新增 JS 路径，未重复旧测试/打包。
+
+
+## 0.5.0 开发更新：头部显示与正文文本
+
+MoonBit `decode_header(String)` 解码 RFC 2047 B/Q 编码词，处理 Q 下划线空格和相邻编码词间的折叠空白；可用于 Subject 与已提取出的显示名称。`decode_charset(Bytes, charset)` 支持 UTF-8、US-ASCII、ISO-8859-1/Latin-1；`MimePart::text()` 读取 charset 参数，未声明时使用 US-ASCII，非 text 部件报错。
+
+这是显示文本工具，不解析邮件地址语法，不对结构化头字段执行上下文校验，也不是可直接重新发送的线缆编码器。未知字符集、破损编码和超过 75 字符的编码词明确报错；当前没有 GBK/GB18030、Windows-1252 或字符集自动猜测。正文二进制仍可通过 body 原样访问。
+
+新增 `node tools/test-mime-text.mjs`：9 个 Python 标准库头部对照、3 个正文字符集、6 个拒绝场景通过。Python 子进程显式使用 UTF-8，以免 Windows 默认代码页改变对照输入。只测试新增 JS 路径，未重复其他套件或打包。

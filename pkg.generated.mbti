@@ -6,6 +6,10 @@ import {
 }
 
 // Values
+pub fn decode_charset(Bytes, String) -> String raise MailboxError
+
+pub fn decode_header(String) -> String raise MailboxError
+
 pub fn decode_transfer(Bytes, String) -> Bytes raise MailboxError
 
 pub fn encode_mboxrd(Array[Message]) -> String raise MailboxError
@@ -51,6 +55,7 @@ pub struct MimePart {
   body : Bytes
   children : Array[MimePart]
 } derive(@debug.Debug)
+pub fn MimePart::text(Self) -> String raise MailboxError
 
 // Type aliases
 

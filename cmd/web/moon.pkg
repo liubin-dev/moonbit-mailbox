@@ -10,7 +10,14 @@ pkgtype(kind: "executable")
 options(
   link: {
     "js": {
-      "exports": [ "run", "maildir_name", "maildir_flags", "mime_summary" ],
+      "exports": [
+        "run",
+        "maildir_name",
+        "maildir_flags",
+        "mime_summary",
+        "header_display",
+        "body_display",
+      ],
       "format": "esm",
     },
   },

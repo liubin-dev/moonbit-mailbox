@@ -58,3 +58,17 @@ fn mime_lines(part : @lib.MimePart, out : Array[String]) -> Unit {
     mime_lines(child, out)
   }
 }
+
+///|
+pub fn header_display(value : String) -> String {
+  @lib.decode_header(value) catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}
+
+///|
+pub fn body_display(base64_message : String) -> String {
+  @lib.parse_mime(@base64.decode(base64_message)).text() catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}
