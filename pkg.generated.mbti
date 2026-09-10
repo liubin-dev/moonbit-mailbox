@@ -33,6 +33,7 @@ pub(all) struct MaildirName {
   has_info : Bool
 } derive(Eq, @debug.Debug)
 pub fn MaildirName::encode(Self) -> String raise MailboxError
+pub fn MaildirName::with_flags(Self, String) -> Self raise MailboxError
 
 pub(all) struct Message {
   envelope : String
