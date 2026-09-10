@@ -72,3 +72,16 @@ pub fn body_display(base64_message : String) -> String {
     e => "ERROR: " + Repr(e).to_string()
   }
 }
+
+///|
+pub fn attachment_name(header : String) -> String {
+  try {
+    let (_, params) = @lib.parse_mime_parameters(header)
+    match params.get("filename") {
+      Some(name) => name
+      None => ""
+    }
+  } catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}

@@ -24,6 +24,8 @@ pub fn parse_mboxrd(String) -> Array[Message] raise MailboxError
 
 pub fn parse_mime(Bytes) -> MimePart raise MailboxError
 
+pub fn parse_mime_parameters(String) -> (String, Map[String, String]) raise MailboxError
+
 // Errors
 pub suberror MailboxError {
   Invalid(String)
@@ -55,6 +57,7 @@ pub struct MimePart {
   body : Bytes
   children : Array[MimePart]
 } derive(@debug.Debug)
+pub fn MimePart::filename(Self) -> String? raise MailboxError
 pub fn MimePart::text(Self) -> String raise MailboxError
 
 // Type aliases

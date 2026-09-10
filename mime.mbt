@@ -74,7 +74,12 @@ pub fn decode_transfer(
 }
 
 ///|
-fn mime_type(text : String) -> (String, Map[String, String]) raise MailboxError {
+pub fn parse_mime_parameters(
+  text : String,
+) -> (String, Map[String, String]) raise MailboxError {
+  if text.length() > 65536 {
+    raise Invalid("MIME parameter header limit")
+  }
   let pieces = []
   let out = StringBuilder()
   let mut quoted = false
@@ -107,12 +112,6 @@ fn mime_type(text : String) -> (String, Map[String, String]) raise MailboxError 
   }
   pieces.push(out.to_string().trim().to_owned())
   let kind = pieces[0].to_lower()
-  if kind.split("/").count() != 2 ||
-    kind.has_prefix("/") ||
-    kind.has_suffix("/") ||
-    kind.contains(" ") {
-    raise Invalid("invalid MIME media type")
-  }
   let params = Map([])
   for i in 1..<pieces.length() {
     let pos = match pieces[i].find("=") {
@@ -151,7 +150,7 @@ fn mime_type(text : String) -> (String, Map[String, String]) raise MailboxError 
     }
     params[name] = value
   }
-  (kind, params)
+  (kind, resolve_parameters(params))
 }
 
 ///|
@@ -303,4 +302,16 @@ fn mime_part(
     decoded
   }
   { fields, media_type: kind, parameters: params, body, children, }
+}
+
+///|
+fn mime_type(text : String) -> (String, Map[String, String]) raise MailboxError {
+  let (kind, params) = parse_mime_parameters(text)
+  if kind.split("/").count() != 2 ||
+    kind.has_prefix("/") ||
+    kind.has_suffix("/") ||
+    kind.contains(" ") {
+    raise Invalid("invalid MIME media type")
+  }
+  (kind, params)
 }

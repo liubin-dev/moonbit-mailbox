@@ -17,6 +17,7 @@ options(
         "mime_summary",
         "header_display",
         "body_display",
+        "attachment_name",
       ],
       "format": "esm",
     },

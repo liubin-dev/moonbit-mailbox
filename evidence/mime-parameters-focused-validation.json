@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-10T12:54:48.311884+00:00",
+  "build": "JS --deny-warn passed",
+  "python_filename_comparisons": 7,
+  "rejection_cases": 6,
+  "scope": "RFC2231 parameter decoder through compiled engine",
+  "full_suite_rerun": false,
+  "archive_refreshed": false,
+  "additional_change": "64 KiB public parameter input guard"
+}
