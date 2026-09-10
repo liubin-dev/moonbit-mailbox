@@ -6,6 +6,8 @@ import {
 }
 
 // Values
+pub fn decode_transfer(Bytes, String) -> Bytes raise MailboxError
+
 pub fn encode_mboxrd(Array[Message]) -> String raise MailboxError
 
 pub fn header_values(String, String) -> Array[String] raise MailboxError
@@ -15,6 +17,8 @@ pub fn headers(String) -> Array[Header] raise MailboxError
 pub fn parse_maildir_name(String) -> MaildirName raise MailboxError
 
 pub fn parse_mboxrd(String) -> Array[Message] raise MailboxError
+
+pub fn parse_mime(Bytes) -> MimePart raise MailboxError
 
 // Errors
 pub suberror MailboxError {
@@ -39,6 +43,14 @@ pub(all) struct Message {
   envelope : String
   content : String
 } derive(Eq, @debug.Debug)
+
+pub struct MimePart {
+  fields : Array[Header]
+  media_type : String
+  parameters : Map[String, String]
+  body : Bytes
+  children : Array[MimePart]
+} derive(@debug.Debug)
 
 // Type aliases
 

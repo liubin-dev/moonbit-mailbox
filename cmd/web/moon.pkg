@@ -1,5 +1,6 @@
 import {
   "localreview/mailbox" @lib,
+  "moonbitlang/core/encoding/base64",
 }
 
 supported_targets = "js"
@@ -9,7 +10,7 @@ pkgtype(kind: "executable")
 options(
   link: {
     "js": {
-      "exports": [ "run", "maildir_name", "maildir_flags" ],
+      "exports": [ "run", "maildir_name", "maildir_flags", "mime_summary" ],
       "format": "esm",
     },
   },

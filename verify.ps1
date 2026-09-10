@@ -36,4 +36,6 @@ try {
   if ($LASTEXITCODE -ne 0) {throw 'benchmark failed'}
   node tools/test-maildir-store.mjs
   if ($LASTEXITCODE -ne 0) {throw 'Maildir disk checks failed'}
+  node tools/test-mime.mjs
+  if ($LASTEXITCODE -ne 0) {throw 'MIME checks failed'}
 } finally {Pop-Location}

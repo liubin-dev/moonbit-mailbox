@@ -6,7 +6,7 @@
 
 ## 尚未达到上游的部分
 
-已增加 Node Maildir 磁盘适配；仍无 mbox 磁盘锁/事务和完整 MIME 解析。已有基础能力参见 README 与生成的 `pkg.generated.mbti`。
+已增加 Node Maildir 磁盘适配；仍无 mbox 磁盘锁/事务；MIME 已支持下述核心结构，尚非完整兼容。已有基础能力参见 README 与生成的 `pkg.generated.mbti`。
 
 ## 工程交付范围
 
@@ -28,3 +28,12 @@ console.log(box.read(key).toString());
 投递使用独占临时文件、文件 fsync、同文件系统硬链接发布及临时文件清理，发布不覆盖已有目标。文件系统需支持硬链接。单 key 锁用于本适配器内部变更互斥；其他程序不遵守此锁时不保证事务隔离。标记移动使用 link/unlink，崩溃可能留下重复项，list 会报告歧义而不是静默丢信。没有目录 fsync、断电持久性或多操作事务保证；崩溃留下的锁需人工确认后清理。适用于用户掌控的私有目录，不提供对恶意目录替换的隔离保护。
 
 针对性检查 `node tools/test-maildir-store.mjs` 已通过：真实磁盘字节保存、拒绝覆盖、flags、文件夹、删除和路径拒绝；Python 标准库读本项目邮件并写回另一封，再由本项目读取。需要 Node 和 Python，未重跑旧测试/其他仓库，未重打包；最新源码以本独立仓库为准。
+
+
+## 0.4.0 开发更新：MoonBit MIME 树
+
+`parse_mime(Bytes)` 返回 MimePart，包含有序重复保留的 fields、media_type、Content-Type parameters、解码后的 body 和 children。支持 multipart 混合/替代及嵌套边界、message/rfc822、7bit/8bit/binary 原始字节、Base64 和 Quoted-Printable（含软换行）。附件体返回 Bytes，不经文本转码；前导/尾随 multipart 说明文本不保留到树中。
+
+以 [RFC 2045](https://www.rfc-editor.org/rfc/rfc2045.txt) 和 [RFC 2046](https://www.rfc-editor.org/rfc/rfc2046.txt) 的结构为参考独立实现。限制为 1 MiB 输入、32 层嵌套、512 个部件。缺失结束边界、重复 MIME 控制头、未知传输编码和破损编码会报错。当前未实现 RFC 2047 头部 encoded-word、RFC 2231 扩展参数、注释语法、字符集转换、MIME 写出或 Python 的全部容错行为；不声称完整 MIME 兼容。
+
+Node 可从 web/engine.mjs 导入 `mime_summary(base64Message)` 查看实际 MoonBit 解析树的简要结果。正式接口在 `pkg.generated.mbti`。运行 `node tools/test-mime.mjs`，本轮 7 个 Python 独立对照、1 个嵌套邮件结果及 4 个错误场景通过；仅验证新增 JS 路径，未重复旧测试/打包。

@@ -38,3 +38,23 @@ pub fn maildir_flags(input : String, flags : String) -> String {
     e => "ERROR: " + Repr(e).to_string()
   }
 }
+
+///|
+pub fn mime_summary(data_base64 : String) -> String {
+  try {
+    let data = @base64.decode(data_base64)
+    let lines = []
+    mime_lines(@lib.parse_mime(data), lines)
+    lines.join("\n")
+  } catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}
+
+///|
+fn mime_lines(part : @lib.MimePart, out : Array[String]) -> Unit {
+  out.push(part.media_type + " " + @base64.encode(part.body))
+  for child in part.children {
+    mime_lines(child, out)
+  }
+}
