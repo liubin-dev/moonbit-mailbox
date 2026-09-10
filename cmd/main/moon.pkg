@@ -1,0 +1,5 @@
+import {
+  "localreview/mailbox" @lib,
+}
+
+pkgtype(kind: "executable")

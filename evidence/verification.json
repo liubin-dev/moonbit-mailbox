@@ -1,0 +1,49 @@
+{
+  "project": "mailbox",
+  "checks": [
+    {
+      "command": "moon fmt",
+      "exit_code": 0,
+      "output": "Finished. moon: ran 10 tasks, now up to date\n",
+      "utc": "2026-09-09T18:52:50.460148+00:00"
+    },
+    {
+      "command": "moon info",
+      "exit_code": 0,
+      "output": "Finished. moon: ran 2 tasks, now up to date\n",
+      "utc": "2026-09-09T18:52:50.657521+00:00"
+    },
+    {
+      "command": "moon check --deny-warn",
+      "exit_code": 0,
+      "output": "Finished. moon: ran 2 tasks, now up to date\n",
+      "utc": "2026-09-09T18:52:51.015403+00:00"
+    },
+    {
+      "command": "moon test --deny-warn",
+      "exit_code": 0,
+      "output": "Total tests: 4, passed: 4, failed: 0.\n",
+      "utc": "2026-09-09T18:52:51.367043+00:00"
+    },
+    {
+      "command": "moon test --target js --deny-warn",
+      "exit_code": 0,
+      "output": "Total tests: 4, passed: 4, failed: 0.\n",
+      "utc": "2026-09-09T18:52:51.555916+00:00"
+    },
+    {
+      "command": "moon build --target js --deny-warn",
+      "exit_code": 0,
+      "output": "Finished. moon: no work to do\n",
+      "utc": "2026-09-09T18:52:51.884535+00:00"
+    },
+    {
+      "command": "moon run cmd/main",
+      "exit_code": 0,
+      "output": "Messages: 1\nMoonBit\n100.host:2,RS\n",
+      "utc": "2026-09-09T18:52:52.032806+00:00"
+    }
+  ],
+  "demo": "Messages: 1\nMoonBit\n100.host:2,RS",
+  "source_lines": 254
+}
