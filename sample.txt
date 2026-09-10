@@ -1,0 +1,12 @@
+From alice@example.com Thu Sep 10 00:00:00 2026
+Subject: MoonBit local review
+X-Tag: demo
+
+>From an escaped body line
+Hello mailbox
+
+From bob@example.com Thu Sep 10 01:00:00 2026
+Subject: Second message
+
+One more message
+
