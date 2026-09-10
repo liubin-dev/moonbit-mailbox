@@ -24,3 +24,17 @@ pub fn run(input : String) -> String {
 fn main {
 
 }
+
+///|
+pub fn maildir_name(input : String) -> String {
+  @lib.parse_maildir_name(input).encode() catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}
+
+///|
+pub fn maildir_flags(input : String, flags : String) -> String {
+  @lib.parse_maildir_name(input).with_flags(flags).encode() catch {
+    e => "ERROR: " + Repr(e).to_string()
+  }
+}

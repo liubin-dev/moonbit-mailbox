@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-10T12:44:12.378757+00:00",
+  "build": "JS --deny-warn passed",
+  "groups_passed": 1,
+  "independent_implementation": "Python standard library mailbox.Maildir",
+  "scope": "Temporary local mailbox, bytes, flags, non-overwrite, folders, removal, bidirectional interoperability",
+  "not_run": [
+    "crash recovery",
+    "concurrent external writers",
+    "full suite",
+    "archive refresh"
+  ],
+  "additional_change": "Windows reserved device names explicitly rejected"
+}

@@ -16,11 +16,11 @@ function _M0TPC16string10StringView(param0, param1, param2) {
 const _M0FPB19int__to__string__js = (x, radix) => {
   return x.toString(radix);
 };
-function _M0TPB4IterGRPC16string10StringViewE(param0, param1) {
+function _M0TPB4IterGcE(param0, param1) {
   this.f = param0;
   this.size_hint = param1;
 }
-function _M0TPB4IterGcE(param0, param1) {
+function _M0TPB4IterGRPC16string10StringViewE(param0, param1) {
   this.f = param0;
   this.size_hint = param1;
 }
@@ -50,6 +50,11 @@ const _M0MPB7JSArray12append__view = (dst, src, src_offset, len) => {
      dst.push(src[src_offset + i]);
    }
  };
+function _M0TPB12MutArrayViewGcE(param0, param1, param2) {
+  this.buf = param0;
+  this.start = param1;
+  this.end = param2;
+}
 function _M0TPB9ArrayViewGRPC16string10StringViewE(param0, param1, param2) {
   this.buf = param0;
   this.start = param1;
@@ -138,6 +143,26 @@ function _M0TPC15debug7Content(param0, param1, param2) {
   this.lines = param1;
   this.needs_parens = param2;
 }
+function _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+  this._0 = param0;
+}
+_M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+  this._0 = param0;
+}
+_M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid(param0) {
+  this._0 = param0;
+}
+_M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid.prototype.$tag = 0;
+function _M0TPB8MutLocalGsE(param0) {
+  this.val = param0;
+}
+function _M0TP211localreview7mailbox11MaildirName(param0, param1, param2) {
+  this.unique = param0;
+  this.flags = param1;
+  this.has_info = param2;
+}
 function _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
@@ -146,10 +171,6 @@ function _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(para
   this._0 = param0;
 }
 _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid(param0) {
-  this._0 = param0;
-}
-_M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid.prototype.$tag = 0;
 function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
@@ -158,9 +179,6 @@ function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211
   this._0 = param0;
 }
 _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0TPB8MutLocalGsE(param0) {
-  this.val = param0;
-}
 function _M0TP211localreview7mailbox7Message(param0, param1) {
   this.envelope = param0;
   this.content = param1;
@@ -188,12 +206,12 @@ _M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE2Ok.pr
 const _M0FP092moonbitlang_2fcore_2fbuiltin_2fStringBuilder_24as_24_40moonbitlang_2fcore_2fbuiltin_2eLogger = { method_0: _M0IPB13StringBuilderPB6Logger13write__string, method_1: _M0IP016_24default__implPB6Logger16write__substringGRPB13StringBuilderE, method_2: _M0IPB13StringBuilderPB6Logger11write__view, method_3: _M0IPB13StringBuilderPB6Logger11write__char, method_4: _M0IP016_24default__implPB6Logger28write__string__interpolationGRPB13StringBuilderE, method_5: _M0IP016_24default__implPB6Logger5writeGRPB13StringBuilderE };
 const _M0MPC16string10StringView4trimN7_2abindS6760 = "\t\n\r ";
 const _M0MPC16string6String4trimN7_2abindS6861 = "\t\n\r ";
-const _M0MPB4Iter4nextN6constrS9855GRPC16string10StringViewE = 0;
-const _M0MPB4Iter4nextN6constrS9856GRPC16string10StringViewE = 0;
 const _M0MPB4Iter4nextN6constrS9855GcE = 0;
 const _M0MPB4Iter4nextN6constrS9856GcE = 0;
-const _M0MPB4Iter3newN6constrS9863GRPC16string10StringViewE = 0;
+const _M0MPB4Iter4nextN6constrS9855GRPC16string10StringViewE = 0;
+const _M0MPB4Iter4nextN6constrS9856GRPC16string10StringViewE = 0;
 const _M0MPB4Iter3newN6constrS9863GcE = 0;
+const _M0MPB4Iter3newN6constrS9863GRPC16string10StringViewE = 0;
 const _M0FPC15debug14compact__linesN7_2abindS1134 = "";
 const _M0FPC15debug14compact__linesN7_2abindS1147 = " ";
 const _M0FPC15debug14compact__linesN7_2abindS1141 = ",";
@@ -540,22 +558,6 @@ function _M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(self) {
   _M0IPC15debug4ReprPB4Show6output(self, { self: logger, method_table: _M0FP092moonbitlang_2fcore_2fbuiltin_2fStringBuilder_24as_24_40moonbitlang_2fcore_2fbuiltin_2eLogger });
   return _M0MPB13StringBuilder10to__string(logger);
 }
-function _M0MPB4Iter4nextGRPC16string10StringViewE(self) {
-  const _func = self.f;
-  const result = _func();
-  const _bind = self.size_hint;
-  if (result === undefined) {
-    self.size_hint = _M0MPB4Iter4nextN6constrS9856GRPC16string10StringViewE;
-  } else {
-    if (_bind === undefined) {
-    } else {
-      const _Some = _bind;
-      const _n = _Some;
-      self.size_hint = _n > 0 ? _n - 1 | 0 : _M0MPB4Iter4nextN6constrS9855GRPC16string10StringViewE;
-    }
-  }
-  return result;
-}
 function _M0MPB4Iter4nextGcE(self) {
   const _func = self.f;
   const result = _func();
@@ -572,19 +574,24 @@ function _M0MPB4Iter4nextGcE(self) {
   }
   return result;
 }
+function _M0MPB4Iter4nextGRPC16string10StringViewE(self) {
+  const _func = self.f;
+  const result = _func();
+  const _bind = self.size_hint;
+  if (result === undefined) {
+    self.size_hint = _M0MPB4Iter4nextN6constrS9856GRPC16string10StringViewE;
+  } else {
+    if (_bind === undefined) {
+    } else {
+      const _Some = _bind;
+      const _n = _Some;
+      self.size_hint = _n > 0 ? _n - 1 | 0 : _M0MPB4Iter4nextN6constrS9855GRPC16string10StringViewE;
+    }
+  }
+  return result;
+}
 function _M0MPC13int3Int18to__string_2einner(self, radix) {
   return _M0FPB19int__to__string__js(self, radix);
-}
-function _M0MPB4Iter3newGRPC16string10StringViewE(f, size_hint) {
-  let size_hint$2;
-  if (size_hint === undefined) {
-    size_hint$2 = undefined;
-  } else {
-    const _Some = size_hint;
-    const _n = _Some;
-    size_hint$2 = _n > 0 ? _n : _M0MPB4Iter3newN6constrS9863GRPC16string10StringViewE;
-  }
-  return new _M0TPB4IterGRPC16string10StringViewE(f, size_hint$2);
 }
 function _M0MPB4Iter3newGcE(f, size_hint) {
   let size_hint$2;
@@ -596,6 +603,17 @@ function _M0MPB4Iter3newGcE(f, size_hint) {
     size_hint$2 = _n > 0 ? _n : _M0MPB4Iter3newN6constrS9863GcE;
   }
   return new _M0TPB4IterGcE(f, size_hint$2);
+}
+function _M0MPB4Iter3newGRPC16string10StringViewE(f, size_hint) {
+  let size_hint$2;
+  if (size_hint === undefined) {
+    size_hint$2 = undefined;
+  } else {
+    const _Some = size_hint;
+    const _n = _Some;
+    size_hint$2 = _n > 0 ? _n : _M0MPB4Iter3newN6constrS9863GRPC16string10StringViewE;
+  }
+  return new _M0TPB4IterGRPC16string10StringViewE(f, size_hint$2);
 }
 function _M0MPC16string10StringView9to__owned(self) {
   return self.str.substring(self.start, self.end);
@@ -1082,6 +1100,9 @@ function _M0MPC15array5Array13Array_2einnerGRPC16string10StringViewE(capacity) {
   return [];
 }
 function _M0MPC15array5Array4pushGsE(self, value) {
+  _M0MPB7JSArray4push(self, value);
+}
+function _M0MPC15array5Array4pushGcE(self, value) {
   _M0MPB7JSArray4push(self, value);
 }
 function _M0FPB36string__contains__code__unit__scalar(str, start, end, code) {
@@ -2191,6 +2212,21 @@ function _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(self, index) {
   const len = self.length;
   return index >= 0 && index < len ? self[index] : $panic();
 }
+function _M0FPB7minimum(x, y) {
+  return x > y ? y : x;
+}
+function _M0MPC15array12MutArrayView4swapGcE(arr, i, j) {
+  const temp = arr.buf[arr.start + i | 0];
+  arr.buf[arr.start + i | 0] = arr.buf[arr.start + j | 0];
+  arr.buf[arr.start + j | 0] = temp;
+}
+function _M0MPC15array12MutArrayView5sliceGcE(arr, start, end) {
+  const _bind = arr.end - arr.start | 0;
+  if (start < 0 || (start > end || end > _bind)) {
+    $panic();
+  }
+  return new _M0TPB12MutArrayViewGcE(arr.buf, start + arr.start | 0, end + arr.start | 0);
+}
 function _M0MPC15array5Array3setGRP211localreview7mailbox6HeaderE(self, index, value) {
   const len = self.length;
   if (index >= 0 && index < len) {
@@ -2200,6 +2236,333 @@ function _M0MPC15array5Array3setGRP211localreview7mailbox6HeaderE(self, index, v
     $panic();
     return;
   }
+}
+function _M0MPC15array12MutArrayView14rev__in__placeGcE(arr) {
+  const len = arr.end - arr.start | 0;
+  if (2 === 0) {
+    $panic();
+  }
+  const mid_len = len / 2 | 0;
+  let _tmp = 0;
+  while (true) {
+    const i = _tmp;
+    if (i < mid_len) {
+      const j = (len - i | 0) - 1 | 0;
+      const temp = arr.buf[arr.start + i | 0];
+      arr.buf[arr.start + i | 0] = arr.buf[arr.start + j | 0];
+      arr.buf[arr.start + j | 0] = temp;
+      _tmp = i + 1 | 0;
+      continue;
+    } else {
+      return;
+    }
+  }
+}
+function _M0FPB17fixed__get__limit(len) {
+  let _tmp = len;
+  let _tmp$2 = 0;
+  while (true) {
+    const len$2 = _tmp;
+    const limit = _tmp$2;
+    if (len$2 > 0) {
+      if (2 === 0) {
+        $panic();
+      }
+      _tmp = len$2 / 2 | 0;
+      _tmp$2 = limit + 1 | 0;
+      continue;
+    } else {
+      return limit;
+    }
+  }
+}
+function _M0FPB19fixed__bubble__sortGcE(arr) {
+  const _bind = arr.end - arr.start | 0;
+  let _tmp = 1;
+  while (true) {
+    const i = _tmp;
+    if (i < _bind) {
+      let _tmp$2 = i;
+      while (true) {
+        const j = _tmp$2;
+        if (j > 0 && arr.buf[arr.start + (j - 1 | 0) | 0] > arr.buf[arr.start + j | 0]) {
+          _M0MPC15array12MutArrayView4swapGcE(arr, j, j - 1 | 0);
+          _tmp$2 = j - 1 | 0;
+          continue;
+        } else {
+          break;
+        }
+      }
+      _tmp = i + 1 | 0;
+      continue;
+    } else {
+      return;
+    }
+  }
+}
+function _M0FPB20fixed__choose__pivotN7sort__2S568GcE(_env, a, b) {
+  const swaps = _env._1;
+  const arr = _env._0;
+  if (arr.buf[arr.start + a | 0] > arr.buf[arr.start + b | 0]) {
+    _M0MPC15array12MutArrayView4swapGcE(arr, a, b);
+    swaps.val = swaps.val + 1 | 0;
+    return;
+  } else {
+    return;
+  }
+}
+function _M0FPB20fixed__choose__pivotN7sort__3S572GcE(_env, a, b, c) {
+  _M0FPB20fixed__choose__pivotN7sort__2S568GcE(_env, a, b);
+  _M0FPB20fixed__choose__pivotN7sort__2S568GcE(_env, b, c);
+  _M0FPB20fixed__choose__pivotN7sort__2S568GcE(_env, a, b);
+}
+function _M0FPB20fixed__choose__pivotGcE(arr) {
+  const len = arr.end - arr.start | 0;
+  const swaps = new _M0TPB8MutLocalGiE(0);
+  if (4 === 0) {
+    $panic();
+  }
+  const b = Math.imul(len / 4 | 0, 2) | 0;
+  if (len >= 8) {
+    if (4 === 0) {
+      $panic();
+    }
+    const a = Math.imul(len / 4 | 0, 1) | 0;
+    if (4 === 0) {
+      $panic();
+    }
+    const c = Math.imul(len / 4 | 0, 3) | 0;
+    const _env = { _0: arr, _1: swaps };
+    if (len > 50) {
+      _M0FPB20fixed__choose__pivotN7sort__3S572GcE(_env, a - 1 | 0, a, a + 1 | 0);
+      _M0FPB20fixed__choose__pivotN7sort__3S572GcE(_env, b - 1 | 0, b, b + 1 | 0);
+      _M0FPB20fixed__choose__pivotN7sort__3S572GcE(_env, c - 1 | 0, c, c + 1 | 0);
+    }
+    _M0FPB20fixed__choose__pivotN7sort__3S572GcE(_env, a, b, c);
+  }
+  if (swaps.val === 12) {
+    _M0MPC15array12MutArrayView14rev__in__placeGcE(arr);
+    return { _0: (len - b | 0) - 1 | 0, _1: true };
+  } else {
+    return { _0: b, _1: swaps.val === 0 };
+  }
+}
+function _M0FPB17fixed__sift__downGcE(arr, index) {
+  const len = arr.end - arr.start | 0;
+  let _tmp = index;
+  let _tmp$2 = (Math.imul(index, 2) | 0) + 1 | 0;
+  while (true) {
+    const index$2 = _tmp;
+    const child = _tmp$2;
+    if (child < len) {
+      const child$2 = (child + 1 | 0) < len && arr.buf[arr.start + child | 0] < arr.buf[arr.start + (child + 1 | 0) | 0] ? child + 1 | 0 : child;
+      if (arr.buf[arr.start + index$2 | 0] >= arr.buf[arr.start + child$2 | 0]) {
+        return undefined;
+      }
+      _M0MPC15array12MutArrayView4swapGcE(arr, index$2, child$2);
+      _tmp = child$2;
+      _tmp$2 = (Math.imul(child$2, 2) | 0) + 1 | 0;
+      continue;
+    } else {
+      return;
+    }
+  }
+}
+function _M0FPB17fixed__heap__sortGcE(arr) {
+  const len = arr.end - arr.start | 0;
+  if (2 === 0) {
+    $panic();
+  }
+  const _bind = len / 2 | 0;
+  let _tmp = _bind - 1 | 0;
+  while (true) {
+    const i = _tmp;
+    if (i >= 0) {
+      _M0FPB17fixed__sift__downGcE(arr, i);
+      _tmp = i - 1 | 0;
+      continue;
+    } else {
+      break;
+    }
+  }
+  let _tmp$2 = len - 1 | 0;
+  while (true) {
+    const i = _tmp$2;
+    if (i >= 1) {
+      _M0MPC15array12MutArrayView4swapGcE(arr, 0, i);
+      _M0FPB17fixed__sift__downGcE(_M0MPC15array12MutArrayView5sliceGcE(arr, 0, i), 0);
+      _tmp$2 = i - 1 | 0;
+      continue;
+    } else {
+      return;
+    }
+  }
+}
+function _M0FPB16fixed__partitionGcE(arr, pivot_index) {
+  _M0MPC15array12MutArrayView4swapGcE(arr, pivot_index, (arr.end - arr.start | 0) - 1 | 0);
+  const pivot = arr.buf[arr.start + ((arr.end - arr.start | 0) - 1 | 0) | 0];
+  const _bind = (arr.end - arr.start | 0) - 1 | 0;
+  let _tmp = 0;
+  let _tmp$2 = 0;
+  let _tmp$3 = true;
+  while (true) {
+    const j = _tmp;
+    const i = _tmp$2;
+    const partitioned = _tmp$3;
+    if (j < _bind) {
+      if (arr.buf[arr.start + j | 0] < pivot) {
+        if (i !== j) {
+          _M0MPC15array12MutArrayView4swapGcE(arr, i, j);
+          _tmp = j + 1 | 0;
+          _tmp$2 = i + 1 | 0;
+          _tmp$3 = false;
+          continue;
+        } else {
+          _tmp = j + 1 | 0;
+          _tmp$2 = i + 1 | 0;
+          continue;
+        }
+      } else {
+        _tmp = j + 1 | 0;
+        continue;
+      }
+    } else {
+      _M0MPC15array12MutArrayView4swapGcE(arr, i, (arr.end - arr.start | 0) - 1 | 0);
+      return { _0: i, _1: partitioned };
+    }
+  }
+}
+function _M0FPB24fixed__try__bubble__sortGcE(arr) {
+  const _bind = arr.end - arr.start | 0;
+  let _tmp = 1;
+  let _tmp$2 = 0;
+  while (true) {
+    const i = _tmp;
+    const tries = _tmp$2;
+    if (i < _bind) {
+      let sorted;
+      let _tmp$3 = i;
+      let _tmp$4 = true;
+      while (true) {
+        const j = _tmp$3;
+        const sorted$2 = _tmp$4;
+        if (j > 0 && arr.buf[arr.start + (j - 1 | 0) | 0] > arr.buf[arr.start + j | 0]) {
+          _M0MPC15array12MutArrayView4swapGcE(arr, j, j - 1 | 0);
+          _tmp$3 = j - 1 | 0;
+          _tmp$4 = false;
+          continue;
+        } else {
+          sorted = sorted$2;
+          break;
+        }
+      }
+      if (!sorted) {
+        const tries$2 = tries + 1 | 0;
+        if (tries$2 > 8) {
+          return false;
+        }
+        _tmp = i + 1 | 0;
+        _tmp$2 = tries$2;
+        continue;
+      } else {
+        _tmp = i + 1 | 0;
+        continue;
+      }
+    } else {
+      return true;
+    }
+  }
+}
+function _M0FPB18fixed__quick__sortGcE(arr, pred, limit) {
+  let _tmp = limit;
+  let _tmp$2 = arr;
+  let _tmp$3 = pred;
+  let _tmp$4 = true;
+  let _tmp$5 = true;
+  while (true) {
+    const limit$2 = _tmp;
+    const arr$2 = _tmp$2;
+    const pred$2 = _tmp$3;
+    const was_partitioned = _tmp$4;
+    const balanced = _tmp$5;
+    const len = arr$2.end - arr$2.start | 0;
+    if (len <= 16) {
+      if (len >= 2) {
+        _M0FPB19fixed__bubble__sortGcE(arr$2);
+      }
+      return undefined;
+    }
+    if (limit$2 === 0) {
+      _M0FPB17fixed__heap__sortGcE(arr$2);
+      return undefined;
+    }
+    const _bind = _M0FPB20fixed__choose__pivotGcE(arr$2);
+    const _pivot_index = _bind._0;
+    const _likely_sorted = _bind._1;
+    if (was_partitioned && (balanced && _likely_sorted)) {
+      if (_M0FPB24fixed__try__bubble__sortGcE(arr$2)) {
+        return undefined;
+      }
+    }
+    const _bind$2 = _M0FPB16fixed__partitionGcE(arr$2, _pivot_index);
+    const _pivot = _bind$2._0;
+    const _partitioned = _bind$2._1;
+    const _tmp$6 = _M0FPB7minimum(_pivot, len - _pivot | 0);
+    if (8 === 0) {
+      $panic();
+    }
+    const balanced$2 = _tmp$6 >= (len / 8 | 0);
+    const limit$3 = !balanced$2 ? limit$2 - 1 | 0 : limit$2;
+    if (pred$2 === -1) {
+    } else {
+      const _Some = pred$2;
+      const _p = _Some;
+      if (_p === arr$2.buf[arr$2.start + _pivot | 0]) {
+        let i;
+        let _tmp$7 = _pivot;
+        while (true) {
+          const i$2 = _tmp$7;
+          if (i$2 < len && _p === arr$2.buf[arr$2.start + i$2 | 0]) {
+            _tmp$7 = i$2 + 1 | 0;
+            continue;
+          } else {
+            i = i$2;
+            break;
+          }
+        }
+        _tmp = limit$3;
+        _tmp$2 = _M0MPC15array12MutArrayView5sliceGcE(arr$2, i, len);
+        _tmp$4 = _partitioned;
+        _tmp$5 = balanced$2;
+        continue;
+      }
+    }
+    const left = _M0MPC15array12MutArrayView5sliceGcE(arr$2, 0, _pivot);
+    const right = _M0MPC15array12MutArrayView5sliceGcE(arr$2, _pivot + 1 | 0, len);
+    if ((left.end - left.start | 0) < (right.end - right.start | 0)) {
+      _M0FPB18fixed__quick__sortGcE(left, pred$2, limit$3);
+      _tmp = limit$3;
+      _tmp$2 = right;
+      _tmp$3 = arr$2.buf[arr$2.start + _pivot | 0];
+      _tmp$4 = _partitioned;
+      _tmp$5 = balanced$2;
+      continue;
+    } else {
+      _M0FPB18fixed__quick__sortGcE(right, arr$2.buf[arr$2.start + _pivot | 0], limit$3);
+      _tmp = limit$3;
+      _tmp$2 = left;
+      _tmp$4 = _partitioned;
+      _tmp$5 = balanced$2;
+      continue;
+    }
+  }
+}
+function _M0MPC15array12MutArrayView4sortGcE(self) {
+  _M0FPB18fixed__quick__sortGcE(self, -1, _M0FPB17fixed__get__limit(self.end - self.start | 0));
+}
+function _M0MPC15array5Array4sortGcE(self) {
+  const _bind = self.length;
+  _M0MPC15array12MutArrayView4sortGcE(new _M0TPB12MutArrayViewGcE(self, 0, _bind));
 }
 function _M0IPC15array5ArrayPB3Add3addGsE(self, other) {
   const len_self = self.length;
@@ -2267,6 +2630,23 @@ function _M0MPC15array5Array6filterGsE(self, f) {
     }
   }
   return arr;
+}
+function _M0MPC15array5Array8containsGcE(self, value) {
+  const _bind = self.length;
+  let _tmp = 0;
+  while (true) {
+    const _ = _tmp;
+    if (_ < _bind) {
+      const v = self[_];
+      if (v === value) {
+        return true;
+      }
+      _tmp = _ + 1 | 0;
+      continue;
+    } else {
+      return false;
+    }
+  }
 }
 function _M0MPC15array5Array10push__iterGsE(self, iter) {
   const _bind = _M0MPB4Iter10size__hintGsE(iter);
@@ -3252,6 +3632,172 @@ function _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__repr(_x_56
   }
   return _M0MPC15debug4Repr4ctor("Invalid", [{ _0: undefined, _1: _M0IPC16string6StringPC15debug5Debug8to__repr(_arg_57) }]);
 }
+function _M0FP211localreview7mailbox20parse__maildir__name(name) {
+  let _tmp;
+  if (name === "") {
+    _tmp = true;
+  } else {
+    let _tmp$2;
+    if (name === ".") {
+      _tmp$2 = true;
+    } else {
+      let _tmp$3;
+      if (name === "..") {
+        _tmp$3 = true;
+      } else {
+        let _tmp$4;
+        const _bind = "/";
+        if (_M0MPC16string6String8contains(name, new _M0TPC16string10StringView(_bind, 0, _bind.length))) {
+          _tmp$4 = true;
+        } else {
+          let _tmp$5;
+          const _bind$2 = "\\";
+          if (_M0MPC16string6String8contains(name, new _M0TPC16string10StringView(_bind$2, 0, _bind$2.length))) {
+            _tmp$5 = true;
+          } else {
+            let _tmp$6;
+            const _bind$3 = "\u0000";
+            if (_M0MPC16string6String8contains(name, new _M0TPC16string10StringView(_bind$3, 0, _bind$3.length))) {
+              _tmp$6 = true;
+            } else {
+              let _tmp$7;
+              const _bind$4 = "\r";
+              if (_M0MPC16string6String8contains(name, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length))) {
+                _tmp$7 = true;
+              } else {
+                const _bind$5 = "\n";
+                _tmp$7 = _M0MPC16string6String8contains(name, new _M0TPC16string10StringView(_bind$5, 0, _bind$5.length));
+              }
+              _tmp$6 = _tmp$7;
+            }
+            _tmp$5 = _tmp$6;
+          }
+          _tmp$4 = _tmp$5;
+        }
+        _tmp$3 = _tmp$4;
+      }
+      _tmp$2 = _tmp$3;
+    }
+    _tmp = _tmp$2;
+  }
+  if (_tmp) {
+    return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("expected safe basename"));
+  }
+  const _bind = ":2,";
+  const pos = _M0MPC16string6String4find(name, new _M0TPC16string10StringView(_bind, 0, _bind.length));
+  let unique;
+  let i;
+  _L: {
+    _L$2: {
+      if (pos === undefined) {
+        unique = name;
+      } else {
+        const _Some = pos;
+        const _i = _Some;
+        i = _i;
+        break _L$2;
+      }
+      break _L;
+    }
+    unique = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(name, 0, i));
+  }
+  let flags;
+  let i$2;
+  _L$2: {
+    _L$3: {
+      if (pos === undefined) {
+        flags = "";
+      } else {
+        const _Some = pos;
+        const _i = _Some;
+        i$2 = _i;
+        break _L$3;
+      }
+      break _L$2;
+    }
+    flags = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(name, i$2 + 3 | 0, undefined));
+  }
+  let _tmp$2;
+  if (unique === "") {
+    _tmp$2 = true;
+  } else {
+    const _bind$2 = ":";
+    _tmp$2 = _M0MPC16string6String8contains(unique, new _M0TPC16string10StringView(_bind$2, 0, _bind$2.length));
+  }
+  if (_tmp$2) {
+    return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir unique name or info version"));
+  }
+  const seen = [];
+  const _it = _M0MPC16string6String4iter(flags);
+  while (true) {
+    let c;
+    _L$3: {
+      const _bind$2 = _M0MPB4Iter4nextGcE(_it);
+      if (_bind$2 === -1) {
+        break;
+      } else {
+        const _Some = _bind$2;
+        const _c = _Some;
+        c = _c;
+        break _L$3;
+      }
+    }
+    if (!(c >= 65 && c <= 90) && !(c >= 97 && c <= 122)) {
+      return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir flag"));
+    }
+    if (_M0MPC15array5Array8containsGcE(seen, c)) {
+      return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("duplicate Maildir flag"));
+    }
+    _M0MPC15array5Array4pushGcE(seen, c);
+    continue;
+  }
+  _M0MPC15array5Array4sortGcE(seen);
+  const sorted = new _M0TPB8MutLocalGsE("");
+  const _bind$2 = seen.length;
+  let _tmp$3 = 0;
+  while (true) {
+    const _ = _tmp$3;
+    if (_ < _bind$2) {
+      const c = seen[_];
+      sorted.val = `${sorted.val}${_M0IPC14char4CharPB4Show10to__string(c)}`;
+      _tmp$3 = _ + 1 | 0;
+      continue;
+    } else {
+      break;
+    }
+  }
+  return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok(new _M0TP211localreview7mailbox11MaildirName(unique, sorted.val, !(pos === undefined)));
+}
+function _M0MP211localreview7mailbox11MaildirName6encode(self) {
+  if (!self.has_info && _M0IP016_24default__implPB2Eq10not__equalGsE(self.flags, "")) {
+    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("flags require info suffix"));
+  }
+  const candidate = `${self.unique}${self.has_info ? `:2,${self.flags}` : ""}`;
+  const _bind = _M0FP211localreview7mailbox20parse__maildir__name(candidate);
+  let parsed;
+  if (_bind.$tag === 1) {
+    const _ok = _bind;
+    parsed = _ok._0;
+  } else {
+    return _bind;
+  }
+  if (_M0IP016_24default__implPB2Eq10not__equalGsE(parsed.unique, self.unique)) {
+    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unique name contains an info suffix"));
+  }
+  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(`${parsed.unique}${parsed.has_info ? `:2,${parsed.flags}` : ""}`);
+}
+function _M0MP211localreview7mailbox11MaildirName11with__flags(self, flags) {
+  const candidate = new _M0TP211localreview7mailbox11MaildirName(self.unique, flags, true);
+  const _bind = _M0MP211localreview7mailbox11MaildirName6encode(candidate);
+  let _tmp;
+  if (_bind.$tag === 1) {
+    const _ok = _bind;
+    _tmp = _ok._0;
+  } else {
+    return _bind;
+  }
+  return _M0FP211localreview7mailbox20parse__maildir__name(_tmp);
+}
 function _M0FP211localreview7mailbox10from__line(s) {
   const i = new _M0TPB8MutLocalGiE(0);
   while (true) {
@@ -3604,7 +4150,69 @@ function _M0FP411localreview7mailbox3cmd3web3run(input) {
   const e = _try_err;
   return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
 }
+function _M0FP411localreview7mailbox3cmd3web13maildir__name(input) {
+  let _try_err;
+  _L: {
+    const _bind = _M0FP211localreview7mailbox20parse__maildir__name(input);
+    let _tmp;
+    if (_bind.$tag === 1) {
+      const _ok = _bind;
+      _tmp = _ok._0;
+    } else {
+      const _err = _bind;
+      _try_err = _err._0;
+      break _L;
+    }
+    const _bind$2 = _M0MP211localreview7mailbox11MaildirName6encode(_tmp);
+    if (_bind$2.$tag === 1) {
+      const _ok = _bind$2;
+      return _ok._0;
+    } else {
+      const _err = _bind$2;
+      _try_err = _err._0;
+      break _L;
+    }
+  }
+  const e = _try_err;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+}
+function _M0FP411localreview7mailbox3cmd3web14maildir__flags(input, flags) {
+  let _try_err;
+  _L: {
+    const _bind = _M0FP211localreview7mailbox20parse__maildir__name(input);
+    let _tmp;
+    if (_bind.$tag === 1) {
+      const _ok = _bind;
+      _tmp = _ok._0;
+    } else {
+      const _err = _bind;
+      _try_err = _err._0;
+      break _L;
+    }
+    const _bind$2 = _M0MP211localreview7mailbox11MaildirName11with__flags(_tmp, flags);
+    let _tmp$2;
+    if (_bind$2.$tag === 1) {
+      const _ok = _bind$2;
+      _tmp$2 = _ok._0;
+    } else {
+      const _err = _bind$2;
+      _try_err = _err._0;
+      break _L;
+    }
+    const _bind$3 = _M0MP211localreview7mailbox11MaildirName6encode(_tmp$2);
+    if (_bind$3.$tag === 1) {
+      const _ok = _bind$3;
+      return _ok._0;
+    } else {
+      const _err = _bind$3;
+      _try_err = _err._0;
+      break _L;
+    }
+  }
+  const e = _try_err;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+}
 (() => {
 })();
-export { _M0FP411localreview7mailbox3cmd3web3run as run }
+export { _M0FP411localreview7mailbox3cmd3web3run as run, _M0FP411localreview7mailbox3cmd3web13maildir__name as maildir_name, _M0FP411localreview7mailbox3cmd3web14maildir__flags as maildir_flags }
 //# sourceMappingURL=web.js.map
