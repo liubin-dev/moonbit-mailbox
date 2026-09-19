@@ -1,4 +1,4 @@
-name = "localreview/mailbox"
+name = "liubin-dev/mailbox"
 
 version = "0.6.0"
 
