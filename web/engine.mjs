@@ -282,10 +282,10 @@ function _M0DTPC15error5Error60moonbitlang_2fcore_2fencoding_2futf8_2eMalformed_
   this._0 = param0;
 }
 _M0DTPC15error5Error60moonbitlang_2fcore_2fencoding_2futf8_2eMalformed_2eMalformed.prototype.$tag = 1;
-function _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid(param0) {
+function _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid(param0) {
   this._0 = param0;
 }
-_M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid.prototype.$tag = 0;
+_M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid.prototype.$tag = 0;
 function _M0TPB9ArrayViewGyE(param0, param1, param2) {
   this.buf = param0;
   this.start = param1;
@@ -304,46 +304,46 @@ function _M0DTPC16result6ResultGzRPC28encoding6base649MalformedE2Ok(param0) {
   this._0 = param0;
 }
 _M0DTPC16result6ResultGzRPC28encoding6base649MalformedE2Ok.prototype.$tag = 1;
-function _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+_M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
 function _M0TPB8MutLocalGsE(param0) {
   this.val = param0;
 }
-function _M0TP211localreview7mailbox11MaildirName(param0, param1, param2) {
+function _M0TP212liubin_2ddev7mailbox11MaildirName(param0, param1, param2) {
   this.unique = param0;
   this.flags = param1;
   this.has_info = param2;
 }
-function _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+_M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+_M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+_M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
 function _M0TPB8MutLocalGbE(param0) {
   this.val = param0;
 }
@@ -362,47 +362,47 @@ function _M0TPB9ArrayViewGUsbEE(param0, param1, param2) {
   this.start = param1;
   this.end = param2;
 }
-function _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+_M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
 function _M0TPB9ArrayViewGUiUbsEEE(param0, param1, param2) {
   this.buf = param0;
   this.start = param1;
   this.end = param2;
 }
-function _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err(param0) {
+_M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0TP211localreview7mailbox6Header(param0, param1) {
+_M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0TP212liubin_2ddev7mailbox6Header(param0, param1) {
   this.name = param0;
   this.value = param1;
 }
-function _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+_M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
 function _M0TPB8MutLocalGOiE(param0) {
   this.val = param0;
 }
@@ -413,36 +413,36 @@ function $bytes_equal(a, b) {
   }
   return true;
 }
-function _M0TP211localreview7mailbox8MimePart(param0, param1, param2, param3, param4) {
+function _M0TP212liubin_2ddev7mailbox8MimePart(param0, param1, param2, param3, param4) {
   this.fields = param0;
   this.media_type = param1;
   this.parameters = param2;
   this.body = param3;
   this.children = param4;
 }
-function _M0TP211localreview7mailbox10MimeBudget(param0) {
+function _M0TP212liubin_2ddev7mailbox10MimeBudget(param0) {
   this.remaining = param0;
 }
-function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
-function _M0TP211localreview7mailbox7Message(param0, param1) {
+_M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+function _M0TP212liubin_2ddev7mailbox7Message(param0, param1) {
   this.envelope = param0;
   this.content = param1;
 }
-function _M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE3Err(param0) {
+function _M0DTPC16result6ResultGRPB5ArrayGsERP212liubin_2ddev7mailbox12MailboxErrorE3Err(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
-function _M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE2Ok(param0) {
+_M0DTPC16result6ResultGRPB5ArrayGsERP212liubin_2ddev7mailbox12MailboxErrorE3Err.prototype.$tag = 0;
+function _M0DTPC16result6ResultGRPB5ArrayGsERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(param0) {
   this._0 = param0;
 }
-_M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
+_M0DTPC16result6ResultGRPB5ArrayGsERP212liubin_2ddev7mailbox12MailboxErrorE2Ok.prototype.$tag = 1;
 const _M0FP092moonbitlang_2fcore_2fbuiltin_2fStringBuilder_24as_24_40moonbitlang_2fcore_2fbuiltin_2eLogger = { method_0: _M0IPB13StringBuilderPB6Logger13write__string, method_1: _M0IP016_24default__implPB6Logger16write__substringGRPB13StringBuilderE, method_2: _M0IPB13StringBuilderPB6Logger11write__view, method_3: _M0IPB13StringBuilderPB6Logger11write__char, method_4: _M0IP016_24default__implPB6Logger28write__string__interpolationGRPB13StringBuilderE, method_5: _M0IP016_24default__implPB6Logger5writeGRPB13StringBuilderE };
 function _M0FP15Error8to__repr(_e) {
   switch (_e.$tag) {
@@ -453,7 +453,7 @@ function _M0FP15Error8to__repr(_e) {
       return _M0IPC28encoding6base649MalformedPC15debug5Debug8to__reprGRPC28encoding6base649MalformedE(_e);
     }
     default: {
-      return _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__reprGRP211localreview7mailbox12MailboxErrorE(_e);
+      return _M0IP212liubin_2ddev7mailbox12MailboxErrorPC15debug5Debug8to__reprGRP212liubin_2ddev7mailbox12MailboxErrorE(_e);
     }
   }
 }
@@ -3162,7 +3162,7 @@ function _M0MPC15bytes5Bytes20unsafe__range__equal(self, self_off, other, other_
   }
   return true;
 }
-function _M0MPC15array5Array3mapGRP211localreview7mailbox6HeadersE(self, f) {
+function _M0MPC15array5Array3mapGRP212liubin_2ddev7mailbox6HeadersE(self, f) {
   const arr = new Array(self.length);
   const _bind = self.length;
   let _tmp = 0;
@@ -3776,10 +3776,10 @@ function _M0MPC15array5Array6appendGsE(self, other) {
     return;
   }
 }
-function _M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(self) {
+function _M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(self) {
   return self.length === 0;
 }
-function _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(self, index) {
+function _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(self, index) {
   const len = self.length;
   return index >= 0 && index < len ? self[index] : $panic();
 }
@@ -3802,7 +3802,7 @@ function _M0MPC15array12MutArrayView5sliceGcE(arr, start, end) {
   }
   return new _M0TPB12MutArrayViewGcE(arr.buf, start + arr.start | 0, end + arr.start | 0);
 }
-function _M0MPC15array5Array3setGRP211localreview7mailbox6HeaderE(self, index, value) {
+function _M0MPC15array5Array3setGRP212liubin_2ddev7mailbox6HeaderE(self, index, value) {
   const len = self.length;
   if (index >= 0 && index < len) {
     self[index] = value;
@@ -4168,7 +4168,7 @@ function _M0MPC15array5Array3allGsE(self, f) {
   }
   return true;
 }
-function _M0MPC15array5Array6filterGRP211localreview7mailbox6HeaderE(self, f) {
+function _M0MPC15array5Array6filterGRP212liubin_2ddev7mailbox6HeaderE(self, f) {
   const arr = [];
   const _bind = self.length;
   let _tmp = 0;
@@ -4269,8 +4269,8 @@ function _M0MPC15array5Array4joinGRPC16string10StringViewE(self, separator) {
 function _M0IPC15float5FloatPB4Show10to__string(self) {
   return String(self);
 }
-function _M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(value) {
-  return _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__repr(value);
+function _M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(value) {
+  return _M0IP212liubin_2ddev7mailbox12MailboxErrorPC15debug5Debug8to__repr(value);
 }
 function _M0MPC15debug4Repr4ReprGRPC15error5ErrorE(value) {
   return _M0IPC15error5ErrorPC15debug5Debug8to__repr(value);
@@ -4667,9 +4667,9 @@ function _M0FPC15debug19bracket__seq__lines(open, close, indent_by, contents) {
       const _item = contents[0];
       if (_item.length > 1) {
         const lines = _M0FPC15debug14indent__spaces(indent_by, new _M0TPC15debug13ContentParens(0, _item)).lines;
-        if (!_M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(lines)) {
+        if (!_M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(lines)) {
           const last_i = lines.length - 1 | 0;
-          _M0MPC15array5Array3setGRP211localreview7mailbox6HeaderE(lines, last_i, `${_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(lines, last_i)},`);
+          _M0MPC15array5Array3setGRP212liubin_2ddev7mailbox6HeaderE(lines, last_i, `${_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(lines, last_i)},`);
         }
         const _self = [];
         _M0MPC15array5Array4pushGsE(_self, open);
@@ -4920,9 +4920,9 @@ function _M0MPC15debug4Repr17info__adds__depth(info) {
 function _M0MPC15debug4Repr19prune__info_2einnerN2goS259(replacement, d, node) {
   const children = _M0MPC15debug4Repr8children(node);
   if (d <= 0) {
-    return _M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(children) ? node : !_M0MPC15debug4Repr17info__adds__depth(node) ? _M0MPC15debug4Repr14with__children(node, _M0MPC15array5Array3mapGRPC15debug4ReprRPC15debug4ReprE(children, (child) => _M0MPC15debug4Repr19prune__info_2einnerN2goS259(replacement, d, child))) : replacement;
+    return _M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(children) ? node : !_M0MPC15debug4Repr17info__adds__depth(node) ? _M0MPC15debug4Repr14with__children(node, _M0MPC15array5Array3mapGRPC15debug4ReprRPC15debug4ReprE(children, (child) => _M0MPC15debug4Repr19prune__info_2einnerN2goS259(replacement, d, child))) : replacement;
   } else {
-    if (_M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(children)) {
+    if (_M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(children)) {
       return node;
     } else {
       const next_depth = _M0MPC15debug4Repr17info__adds__depth(node) ? d - 1 | 0 : d;
@@ -5111,7 +5111,7 @@ function _M0MPC15debug4Repr13pretty__print(self, children) {
     case 14: {
       const _Opaque = self;
       const _name$2 = _Opaque._0;
-      if (_M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(children)) {
+      if (_M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(children)) {
         return _M0FPC15debug10no__parens(_M0FPC15debug8surround("<", ">", _M0FPC15debug8verbatim(_name$2)));
       } else {
         const body = _M0IPC15debug13ContentParensPB3Add3add(_M0FPC15debug8verbatim(`${_name$2}:`), _M0FPC15debug6indent("  ", _M0MPC15debug7Content8no__wrap(_M0FPC15debug10comma__seq("", "", _M0MPC15array5Array3mapGRPC15debug7ContentRPC15debug13ContentParensE(children, (x) => _M0MPC15debug7Content8no__wrap(x))))));
@@ -6052,7 +6052,7 @@ function _M0FPC28encoding6base6414decode__scalar(text, ignore_whitespace) {
 function _M0FPC28encoding6base6414decode_2einner(text, ignore_whitespace) {
   return _M0FPC28encoding6base6414decode__scalar(text, ignore_whitespace);
 }
-function _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__repr(_x_180) {
+function _M0IP212liubin_2ddev7mailbox12MailboxErrorPC15debug5Debug8to__repr(_x_180) {
   let _arg_181;
   _L: {
     const _Invalid = _x_180;
@@ -6062,7 +6062,7 @@ function _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__repr(_x_18
   }
   return _M0MPC15debug4Repr4ctor("Invalid", [{ _0: undefined, _1: _M0IPC16string6StringPC15debug5Debug8to__repr(_arg_181) }]);
 }
-function _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__reprGRP211localreview7mailbox12MailboxErrorE(_x_180) {
+function _M0IP212liubin_2ddev7mailbox12MailboxErrorPC15debug5Debug8to__reprGRP212liubin_2ddev7mailbox12MailboxErrorE(_x_180) {
   let _arg_181;
   _L: {
     const _Invalid = _x_180;
@@ -6072,7 +6072,7 @@ function _M0IP211localreview7mailbox12MailboxErrorPC15debug5Debug8to__reprGRP211
   }
   return _M0MPC15debug4Repr4ctor("Invalid", [{ _0: undefined, _1: _M0IPC16string6StringPC15debug5Debug8to__repr(_arg_181) }]);
 }
-function _M0FP211localreview7mailbox20parse__maildir__name(name) {
+function _M0FP212liubin_2ddev7mailbox20parse__maildir__name(name) {
   let _tmp;
   if (name === "") {
     _tmp = true;
@@ -6121,7 +6121,7 @@ function _M0FP211localreview7mailbox20parse__maildir__name(name) {
     _tmp = _tmp$2;
   }
   if (_tmp) {
-    return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("expected safe basename"));
+    return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("expected safe basename"));
   }
   const _bind = ":2,";
   const pos = _M0MPC16string6String4find(name, new _M0TPC16string10StringView(_bind, 0, _bind.length));
@@ -6165,7 +6165,7 @@ function _M0FP211localreview7mailbox20parse__maildir__name(name) {
     _tmp$2 = _M0MPC16string6String8contains(unique, new _M0TPC16string10StringView(_bind$2, 0, _bind$2.length));
   }
   if (_tmp$2) {
-    return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir unique name or info version"));
+    return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir unique name or info version"));
   }
   const seen = [];
   const _it = _M0MPC16string6String4iter(flags);
@@ -6183,10 +6183,10 @@ function _M0FP211localreview7mailbox20parse__maildir__name(name) {
       }
     }
     if (!(c >= 65 && c <= 90) && !(c >= 97 && c <= 122)) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir flag"));
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid Maildir flag"));
     }
     if (_M0MPC15array5Array8containsGcE(seen, c)) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("duplicate Maildir flag"));
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("duplicate Maildir flag"));
     }
     _M0MPC15array5Array4pushGcE(seen, c);
     continue;
@@ -6206,14 +6206,14 @@ function _M0FP211localreview7mailbox20parse__maildir__name(name) {
       break;
     }
   }
-  return new _M0DTPC16result6ResultGRP211localreview7mailbox11MaildirNameRP211localreview7mailbox12MailboxErrorE2Ok(new _M0TP211localreview7mailbox11MaildirName(unique, sorted.val, !(pos === undefined)));
+  return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox11MaildirNameRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(new _M0TP212liubin_2ddev7mailbox11MaildirName(unique, sorted.val, !(pos === undefined)));
 }
-function _M0MP211localreview7mailbox11MaildirName6encode(self) {
+function _M0MP212liubin_2ddev7mailbox11MaildirName6encode(self) {
   if (!self.has_info && _M0IP016_24default__implPB2Eq10not__equalGsE(self.flags, "")) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("flags require info suffix"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("flags require info suffix"));
   }
   const candidate = `${self.unique}${self.has_info ? `:2,${self.flags}` : ""}`;
-  const _bind = _M0FP211localreview7mailbox20parse__maildir__name(candidate);
+  const _bind = _M0FP212liubin_2ddev7mailbox20parse__maildir__name(candidate);
   let parsed;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -6222,13 +6222,13 @@ function _M0MP211localreview7mailbox11MaildirName6encode(self) {
     return _bind;
   }
   if (_M0IP016_24default__implPB2Eq10not__equalGsE(parsed.unique, self.unique)) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unique name contains an info suffix"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unique name contains an info suffix"));
   }
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(`${parsed.unique}${parsed.has_info ? `:2,${parsed.flags}` : ""}`);
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(`${parsed.unique}${parsed.has_info ? `:2,${parsed.flags}` : ""}`);
 }
-function _M0MP211localreview7mailbox11MaildirName11with__flags(self, flags) {
-  const candidate = new _M0TP211localreview7mailbox11MaildirName(self.unique, flags, true);
-  const _bind = _M0MP211localreview7mailbox11MaildirName6encode(candidate);
+function _M0MP212liubin_2ddev7mailbox11MaildirName11with__flags(self, flags) {
+  const candidate = new _M0TP212liubin_2ddev7mailbox11MaildirName(self.unique, flags, true);
+  const _bind = _M0MP212liubin_2ddev7mailbox11MaildirName6encode(candidate);
   let _tmp;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -6236,11 +6236,11 @@ function _M0MP211localreview7mailbox11MaildirName11with__flags(self, flags) {
   } else {
     return _bind;
   }
-  return _M0FP211localreview7mailbox20parse__maildir__name(_tmp);
+  return _M0FP212liubin_2ddev7mailbox20parse__maildir__name(_tmp);
 }
-function _M0FP211localreview7mailbox15decode__charset(data, charset) {
+function _M0FP212liubin_2ddev7mailbox15decode__charset(data, charset) {
   if (data.length > 1048576) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("charset input limit"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("charset input limit"));
   }
   _L: {
     _L$2: {
@@ -6269,7 +6269,7 @@ function _M0FP211localreview7mailbox15decode__charset(data, charset) {
             break _L;
           }
           default: {
-            return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unsupported MIME charset"));
+            return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unsupported MIME charset"));
           }
         }
       }
@@ -6285,9 +6285,9 @@ function _M0FP211localreview7mailbox15decode__charset(data, charset) {
           _try_err = _err._0;
           break _L$4;
         }
-        return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(_tmp);
+        return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_tmp);
       }
-      return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid UTF-8 MIME text"));
+      return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid UTF-8 MIME text"));
     }
     const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
     const _bind = data.length;
@@ -6297,7 +6297,7 @@ function _M0FP211localreview7mailbox15decode__charset(data, charset) {
       if (_ < _bind) {
         const b = data[_];
         if (b > 127) {
-          return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("non-ASCII MIME text"));
+          return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("non-ASCII MIME text"));
         }
         _M0IPB13StringBuilderPB6Logger11write__char(out, b);
         _tmp = _ + 1 | 0;
@@ -6306,7 +6306,7 @@ function _M0FP211localreview7mailbox15decode__charset(data, charset) {
         break;
       }
     }
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
   }
   const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
   const _bind = data.length;
@@ -6322,13 +6322,13 @@ function _M0FP211localreview7mailbox15decode__charset(data, charset) {
       break;
     }
   }
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
 }
-function _M0MP211localreview7mailbox8MimePart4text(self) {
+function _M0MP212liubin_2ddev7mailbox8MimePart4text(self) {
   const _tmp = self.media_type;
   const _bind = "text/";
   if (!_M0MPC16string6String11has__prefix(_tmp, new _M0TPC16string10StringView(_bind, 0, _bind.length))) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME part is not text"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME part is not text"));
   }
   const _tmp$2 = self.body;
   let _tmp$3;
@@ -6340,27 +6340,27 @@ function _M0MP211localreview7mailbox8MimePart4text(self) {
     const _c = _Some;
     _tmp$3 = _c;
   }
-  return _M0FP211localreview7mailbox15decode__charset(_tmp$2, _tmp$3);
+  return _M0FP212liubin_2ddev7mailbox15decode__charset(_tmp$2, _tmp$3);
 }
-function _M0FP211localreview7mailbox9mime__hex(b) {
+function _M0FP212liubin_2ddev7mailbox9mime__hex(b) {
   const n = b;
   if (n >= 48 && n <= 57) {
-    return new _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE2Ok(n - 48 | 0);
+    return new _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(n - 48 | 0);
   } else {
     if (n >= 65 && n <= 70) {
-      return new _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE2Ok(n - 55 | 0);
+      return new _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(n - 55 | 0);
     } else {
       if (n >= 97 && n <= 102) {
-        return new _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE2Ok(n - 87 | 0);
+        return new _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(n - 87 | 0);
       } else {
-        return new _M0DTPC16result6ResultGiRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid quoted-printable escape"));
+        return new _M0DTPC16result6ResultGiRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid quoted-printable escape"));
       }
     }
   }
 }
-function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
+function _M0FP212liubin_2ddev7mailbox16decode__transfer(data, encoding) {
   if (data.length > 1048576) {
-    return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME body limit"));
+    return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME body limit"));
   }
   _L: {
     const _bind = _M0MPC16string6String9to__lower(_M0MPC16string10StringView9to__owned(_M0MPC16string6String4trim(encoding, undefined)));
@@ -6393,7 +6393,7 @@ function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
             }
             break _L$2;
           }
-          return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid base64 text"));
+          return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid base64 text"));
         }
         let _try_err$2;
         _L$3: {
@@ -6407,9 +6407,9 @@ function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
             _try_err$2 = _err._0;
             break _L$3;
           }
-          return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok(_tmp);
+          return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_tmp);
         }
-        return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid MIME base64"));
+        return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid MIME base64"));
       }
       case "quoted-printable": {
         const out = [];
@@ -6453,10 +6453,10 @@ function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
               continue;
             }
             if ((i.val + 2 | 0) >= data.length) {
-              return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("truncated quoted-printable escape"));
+              return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("truncated quoted-printable escape"));
             }
             const _tmp$4 = i.val + 1 | 0;
-            const _bind$2 = _M0FP211localreview7mailbox9mime__hex(_tmp$4 >>> 0 < data.length ? data[_tmp$4] : $oob());
+            const _bind$2 = _M0FP212liubin_2ddev7mailbox9mime__hex(_tmp$4 >>> 0 < data.length ? data[_tmp$4] : $oob());
             let _tmp$5;
             if (_bind$2.$tag === 1) {
               const _ok = _bind$2;
@@ -6466,7 +6466,7 @@ function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
             }
             const _tmp$6 = Math.imul(_tmp$5, 16) | 0;
             const _tmp$7 = i.val + 2 | 0;
-            const _bind$3 = _M0FP211localreview7mailbox9mime__hex(_tmp$7 >>> 0 < data.length ? data[_tmp$7] : $oob());
+            const _bind$3 = _M0FP212liubin_2ddev7mailbox9mime__hex(_tmp$7 >>> 0 < data.length ? data[_tmp$7] : $oob());
             let _tmp$8;
             if (_bind$3.$tag === 1) {
               const _ok = _bind$3;
@@ -6481,18 +6481,18 @@ function _M0FP211localreview7mailbox16decode__transfer(data, encoding) {
             break;
           }
         }
-        return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(out, 0, out.length)));
+        return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(out, 0, out.length)));
       }
       default: {
-        return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unsupported content transfer encoding"));
+        return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unsupported content transfer encoding"));
       }
     }
   }
-  return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok(data);
+  return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(data);
 }
-function _M0FP211localreview7mailbox14decode__header(value) {
+function _M0FP212liubin_2ddev7mailbox14decode__header(value) {
   if (value.length > 65536) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("header decoding limit"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("header decoding limit"));
   }
   const chars = _M0MPC16string6String9to__array(value);
   const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
@@ -6530,22 +6530,22 @@ function _M0FP211localreview7mailbox14decode__header(value) {
           }
         }
         if ((end.val + 1 | 0) >= chars.length || (((end.val - start | 0) + 2 | 0) > 75 || (_M0MPC15array5Array2atGcE(chars, end.val) !== 63 || _M0MPC15array5Array2atGcE(chars, end.val + 1 | 0) !== 61))) {
-          return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unterminated or oversized encoded word"));
+          return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unterminated or oversized encoded word"));
         }
         const inner = _M0MPC16string6String11from__array(_M0MPC15array5Array12view_2einnerGcE(chars, at.val + 2 | 0, end.val));
         const _bind = "?";
         const pieces = _M0MPB4Iter9to__arrayGRPC16string10StringViewE(_M0MPB4Iter3mapGRPC16string10StringViewsE(_M0MPC16string6String5split(inner, new _M0TPC16string10StringView(_bind, 0, _bind.length)), (x) => _M0MPC16string10StringView9to__owned(x)));
-        if (pieces.length !== 3 || (_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 0)) || (_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 2)) || _M0MPB4Iter3anyGcE(_M0MPC15array5Array4iterGcE(_M0MPC16string6String9to__array(inner)), (c) => c <= 32 || c > 126)))) {
-          return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid encoded word"));
+        if (pieces.length !== 3 || (_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 0)) || (_M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 2)) || _M0MPB4Iter3anyGcE(_M0MPC15array5Array4iterGcE(_M0MPC16string6String9to__array(inner)), (c) => c <= 32 || c > 126)))) {
+          return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid encoded word"));
         }
-        const _bind$2 = _M0MPC16string6String9to__lower(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 1));
+        const _bind$2 = _M0MPC16string6String9to__lower(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 1));
         let bytes;
         switch (_bind$2) {
           case "b": {
             let _try_err;
             _L: {
               _L$2: {
-                const _bind$3 = _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 2);
+                const _bind$3 = _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 2);
                 const _bind$4 = _M0FPC28encoding6base6414decode_2einner(new _M0TPC16string10StringView(_bind$3, 0, _bind$3.length), false);
                 if (_bind$4.$tag === 1) {
                   const _ok = _bind$4;
@@ -6557,17 +6557,17 @@ function _M0FP211localreview7mailbox14decode__header(value) {
                 }
                 break _L;
               }
-              return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid header base64"));
+              return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid header base64"));
             }
             break;
           }
           case "q": {
-            const _tmp = _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 2);
+            const _tmp = _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 2);
             const _bind$3 = "_";
             const _tmp$2 = new _M0TPC16string10StringView(_bind$3, 0, _bind$3.length);
             const _bind$4 = " ";
             const _bind$5 = _M0MPC16string6String12replace__all(_tmp, _tmp$2, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
-            const _bind$6 = _M0FP211localreview7mailbox16decode__transfer(_M0FPC28encoding4utf814encode_2einner(new _M0TPC16string10StringView(_bind$5, 0, _bind$5.length), false), "quoted-printable");
+            const _bind$6 = _M0FP212liubin_2ddev7mailbox16decode__transfer(_M0FPC28encoding4utf814encode_2einner(new _M0TPC16string10StringView(_bind$5, 0, _bind$5.length), false), "quoted-printable");
             if (_bind$6.$tag === 1) {
               const _ok = _bind$6;
               bytes = _ok._0;
@@ -6577,14 +6577,14 @@ function _M0FP211localreview7mailbox14decode__header(value) {
             break;
           }
           default: {
-            return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unsupported encoded word method"));
+            return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unsupported encoded word method"));
           }
         }
         if (!previous_encoded.val) {
           _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(whitespace));
         }
         _M0MPB13StringBuilder5reset(whitespace);
-        const _bind$7 = _M0FP211localreview7mailbox15decode__charset(bytes, _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 0));
+        const _bind$7 = _M0FP212liubin_2ddev7mailbox15decode__charset(bytes, _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 0));
         let _tmp$3;
         if (_bind$7.$tag === 1) {
           const _ok = _bind$7;
@@ -6608,9 +6608,9 @@ function _M0FP211localreview7mailbox14decode__header(value) {
     }
   }
   _M0IPB13StringBuilderPB6Logger13write__string(out, _M0MPB13StringBuilder10to__string(whitespace));
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPB13StringBuilder10to__string(out));
 }
-function _M0FP211localreview7mailbox14percent__bytes(text, encoded) {
+function _M0FP212liubin_2ddev7mailbox14percent__bytes(text, encoded) {
   const input = _M0FPC28encoding4utf814encode_2einner(new _M0TPC16string10StringView(text, 0, text.length), false);
   const out = [];
   const at = new _M0TPB8MutLocalGiE(0);
@@ -6625,10 +6625,10 @@ function _M0FP211localreview7mailbox14percent__bytes(text, encoded) {
       }
       if (_tmp) {
         if ((at.val + 2 | 0) >= input.length) {
-          return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("truncated MIME percent escape"));
+          return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("truncated MIME percent escape"));
         }
         const _tmp$3 = at.val + 1 | 0;
-        const _bind = _M0FP211localreview7mailbox9mime__hex(_tmp$3 >>> 0 < input.length ? input[_tmp$3] : $oob());
+        const _bind = _M0FP212liubin_2ddev7mailbox9mime__hex(_tmp$3 >>> 0 < input.length ? input[_tmp$3] : $oob());
         let _tmp$4;
         if (_bind.$tag === 1) {
           const _ok = _bind;
@@ -6638,7 +6638,7 @@ function _M0FP211localreview7mailbox14percent__bytes(text, encoded) {
         }
         const _tmp$5 = Math.imul(_tmp$4, 16) | 0;
         const _tmp$6 = at.val + 2 | 0;
-        const _bind$2 = _M0FP211localreview7mailbox9mime__hex(_tmp$6 >>> 0 < input.length ? input[_tmp$6] : $oob());
+        const _bind$2 = _M0FP212liubin_2ddev7mailbox9mime__hex(_tmp$6 >>> 0 < input.length ? input[_tmp$6] : $oob());
         let _tmp$7;
         if (_bind$2.$tag === 1) {
           const _ok = _bind$2;
@@ -6658,9 +6658,9 @@ function _M0FP211localreview7mailbox14percent__bytes(text, encoded) {
       break;
     }
   }
-  return new _M0DTPC16result6ResultGzRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(out, 0, out.length)));
+  return new _M0DTPC16result6ResultGzRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(out, 0, out.length)));
 }
-function _M0FP211localreview7mailbox19resolve__parameters(raw) {
+function _M0FP212liubin_2ddev7mailbox19resolve__parameters(raw) {
   const _bind = [];
   const result = _M0MPB3Map3MapGssE(new _M0TPB9ArrayViewGUssEE(_bind, 0, 0), undefined);
   const _bind$2 = [];
@@ -6668,7 +6668,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
   const _bind$3 = [];
   const singles = _M0MPB3Map3MapGsbE(new _M0TPB9ArrayViewGUsbEE(_bind$3, 0, 0), undefined);
   if (_M0MPB3Map6lengthGssE(raw) > 256) {
-    return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME parameter count limit"));
+    return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME parameter count limit"));
   }
   const _it = _M0MPB3Map5iter2GssE(raw);
   while (true) {
@@ -6706,7 +6706,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
       const name = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(key, 0, pos));
       const tail = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(key, pos + 1 | 0, undefined));
       if (_M0MPC16string6String9is__empty(name)) {
-        return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("empty extended parameter name"));
+        return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("empty extended parameter name"));
       }
       let encoded;
       if (_M0MPC16string6String9is__empty(tail)) {
@@ -6741,7 +6741,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
           _tmp = _tmp$2;
         }
         if (_tmp) {
-          return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid MIME continuation index"));
+          return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid MIME continuation index"));
         }
         const number = new _M0TPB8MutLocalGiE(0);
         const _it$2 = _M0MPC16string6String4iter(digits);
@@ -6759,13 +6759,13 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
             }
           }
           if (c < 48 || c > 57) {
-            return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid MIME continuation index"));
+            return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid MIME continuation index"));
           }
           number.val = ((Math.imul(number.val, 10) | 0) + c | 0) - 48 | 0;
           continue;
         }
         if (number.val > 255) {
-          return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME continuation index limit"));
+          return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME continuation index limit"));
         }
         index = number.val;
       }
@@ -6782,7 +6782,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
         group = _g;
       }
       if (_M0MPB3Map8containsGiUbsEE(group, index)) {
-        return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("duplicate MIME continuation"));
+        return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("duplicate MIME continuation"));
       }
       _M0MPB3Map3setGiUbsEE(group, index, { _0: encoded, _1: value });
     }
@@ -6807,7 +6807,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
       }
     }
     if (_M0MPB3Map8containsGssE(result, name) || _M0MPB3Map8containsGsbE(singles, name) && _M0MPB3Map6lengthGiUbsEE(group) !== 1) {
-      return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("ambiguous MIME parameter alternatives"));
+      return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("ambiguous MIME parameter alternatives"));
     }
     const bytes = [];
     const charset = new _M0TPB8MutLocalGsE("us-ascii");
@@ -6824,7 +6824,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
           let _bind$6;
           const _bind$7 = _M0MPB3Map3getGiUbsEE(group, i);
           if (_bind$7 === undefined) {
-            return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("gap in MIME continuation"));
+            return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("gap in MIME continuation"));
           } else {
             const _Some = _bind$7;
             const _v = _Some;
@@ -6843,14 +6843,14 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
           const _bind$6 = "'";
           const pieces = _M0MPB4Iter9to__arrayGRPC16string10StringViewE(_M0MPB4Iter3mapGRPC16string10StringViewsE(_M0MPC16string6String5split(_tmp$2, new _M0TPC16string10StringView(_bind$6, 0, _bind$6.length)), (x) => _M0MPC16string10StringView9to__owned(x)));
           if (pieces.length < 3) {
-            return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("missing MIME charset/language delimiters"));
+            return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("missing MIME charset/language delimiters"));
           }
-          charset.val = _M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 0)) ? "us-ascii" : _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 0);
+          charset.val = _M0MPC16string6String9is__empty(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 0)) ? "us-ascii" : _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 0);
           const _tmp$3 = _M0MPC15array9ArrayView9to__ownedGsE(_M0MPC15array5Array12view_2einnerGsE(pieces, 2, undefined));
           const _bind$7 = "'";
           value.val = _M0MPC15array5Array4joinGsE(_tmp$3, new _M0TPC16string10StringView(_bind$7, 0, _bind$7.length));
         }
-        const _bind$6 = _M0FP211localreview7mailbox14percent__bytes(value.val, encoded);
+        const _bind$6 = _M0FP212liubin_2ddev7mailbox14percent__bytes(value.val, encoded);
         let _bind$7;
         if (_bind$6.$tag === 1) {
           const _ok = _bind$6;
@@ -6879,7 +6879,7 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
     }
     let _tmp$2;
     if (first_encoded.val) {
-      const _bind$6 = _M0FP211localreview7mailbox15decode__charset(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(bytes, 0, bytes.length)), charset.val);
+      const _bind$6 = _M0FP212liubin_2ddev7mailbox15decode__charset(_M0MPC15bytes5Bytes11from__array(new _M0TPB9ArrayViewGyE(bytes, 0, bytes.length)), charset.val);
       if (_bind$6.$tag === 1) {
         const _ok = _bind$6;
         _tmp$2 = _ok._0;
@@ -6902,17 +6902,17 @@ function _M0FP211localreview7mailbox19resolve__parameters(raw) {
           }
           break _L$2;
         }
-        return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid unlabelled MIME parameter"));
+        return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid unlabelled MIME parameter"));
       }
     }
     _M0MPB3Map3setGssE(result, name, _tmp$2);
     continue;
   }
-  return new _M0DTPC16result6ResultGRPB3MapGssERP211localreview7mailbox12MailboxErrorE2Ok(result);
+  return new _M0DTPC16result6ResultGRPB3MapGssERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(result);
 }
-function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
+function _M0FP212liubin_2ddev7mailbox23parse__mime__parameters(text) {
   if (text.length > 65536) {
-    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME parameter header limit"));
+    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME parameter header limit"));
   }
   const pieces = [];
   const out = _M0MPB13StringBuilder21StringBuilder_2einner(0);
@@ -6956,10 +6956,10 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
     continue;
   }
   if (quoted.val || escaped.val) {
-    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unterminated MIME parameter"));
+    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unterminated MIME parameter"));
   }
   _M0MPC15array5Array4pushGsE(pieces, _M0MPC16string10StringView9to__owned(_M0MPC16string6String4trim(_M0MPB13StringBuilder10to__string(out), undefined)));
-  const kind = _M0MPC16string6String9to__lower(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, 0));
+  const kind = _M0MPC16string6String9to__lower(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, 0));
   const _bind = [];
   const params = _M0MPB3Map3MapGssE(new _M0TPB9ArrayViewGUssEE(_bind, 0, 0), undefined);
   const _bind$2 = 1;
@@ -6969,21 +6969,21 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
     const i = _tmp;
     if (i < _bind$3) {
       let pos;
-      const _tmp$2 = _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, i);
+      const _tmp$2 = _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, i);
       const _bind$4 = "=";
       const _bind$5 = _M0MPC16string6String4find(_tmp$2, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
       if (_bind$5 === undefined) {
-        return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME parameter requires equals"));
+        return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME parameter requires equals"));
       } else {
         const _Some = _bind$5;
         const _p = _Some;
         pos = _p;
       }
-      const name = _M0MPC16string6String9to__lower(_M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, i), 0, pos), undefined)));
+      const name = _M0MPC16string6String9to__lower(_M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, i), 0, pos), undefined)));
       if (_M0MPC16string6String9is__empty(name) || _M0MPB3Map8containsGssE(params, name)) {
-        return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("empty or duplicate MIME parameter"));
+        return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("empty or duplicate MIME parameter"));
       }
-      const raw = _M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(pieces, i), pos + 1 | 0, undefined), undefined));
+      const raw = _M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(pieces, i), pos + 1 | 0, undefined), undefined));
       let value;
       const _bind$6 = "\"";
       if (_M0MPC16string6String11has__prefix(raw, new _M0TPC16string10StringView(_bind$6, 0, _bind$6.length))) {
@@ -6995,7 +6995,7 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
           _tmp$3 = !_M0MPC16string6String11has__suffix(raw, new _M0TPC16string10StringView(_bind$7, 0, _bind$7.length));
         }
         if (_tmp$3) {
-          return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid quoted MIME parameter"));
+          return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid quoted MIME parameter"));
         }
         const result = _M0MPB13StringBuilder21StringBuilder_2einner(0);
         const escape = new _M0TPB8MutLocalGbE(false);
@@ -7021,7 +7021,7 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
               escape.val = true;
             } else {
               if (c === 34) {
-                return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid quote in MIME parameter"));
+                return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid quote in MIME parameter"));
               } else {
                 _M0IPB13StringBuilderPB6Logger11write__char(result, c);
               }
@@ -7030,7 +7030,7 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
           continue;
         }
         if (escape.val) {
-          return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("trailing MIME parameter escape"));
+          return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("trailing MIME parameter escape"));
         }
         value = _M0MPB13StringBuilder10to__string(result);
       } else {
@@ -7043,7 +7043,7 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
       break;
     }
   }
-  const _bind$4 = _M0FP211localreview7mailbox19resolve__parameters(params);
+  const _bind$4 = _M0FP212liubin_2ddev7mailbox19resolve__parameters(params);
   let _tmp$2;
   if (_bind$4.$tag === 1) {
     const _ok = _bind$4;
@@ -7051,16 +7051,16 @@ function _M0FP211localreview7mailbox23parse__mime__parameters(text) {
   } else {
     return _bind$4;
   }
-  return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE2Ok({ _0: kind, _1: _tmp$2 });
+  return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE2Ok({ _0: kind, _1: _tmp$2 });
 }
-function _M0FP211localreview7mailbox12mime__header(fields, key, fallback) {
-  const values = _M0MPC15array5Array6filterGRP211localreview7mailbox6HeaderE(fields, (h) => _M0MPC16string6String9to__lower(h.name) === key);
+function _M0FP212liubin_2ddev7mailbox12mime__header(fields, key, fallback) {
+  const values = _M0MPC15array5Array6filterGRP212liubin_2ddev7mailbox6HeaderE(fields, (h) => _M0MPC16string6String9to__lower(h.name) === key);
   if (values.length > 1) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("duplicate MIME control header"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("duplicate MIME control header"));
   }
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(_M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(values) ? fallback : _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(values, 0).value);
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(values) ? fallback : _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(values, 0).value);
 }
-function _M0FP211localreview7mailbox19normalize__newlines(s) {
+function _M0FP212liubin_2ddev7mailbox19normalize__newlines(s) {
   const _bind = "\r\n";
   const _tmp = new _M0TPC16string10StringView(_bind, 0, _bind.length);
   const _bind$2 = "\n";
@@ -7074,13 +7074,13 @@ function _M0FP211localreview7mailbox19normalize__newlines(s) {
     _tmp$2 = _M0MPC16string6String8contains(out, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
   }
   if (_tmp$2) {
-    return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("bare CR or NUL unsupported in text mailbox"));
+    return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("bare CR or NUL unsupported in text mailbox"));
   }
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(out);
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(out);
 }
-function _M0FP211localreview7mailbox7headers(content) {
+function _M0FP212liubin_2ddev7mailbox7headers(content) {
   const out = [];
-  const _bind = _M0FP211localreview7mailbox19normalize__newlines(content);
+  const _bind = _M0FP212liubin_2ddev7mailbox19normalize__newlines(content);
   let _tmp;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -7117,18 +7117,18 @@ function _M0FP211localreview7mailbox7headers(content) {
       _tmp$3 = _M0MPC16string6String11has__prefix(line, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
     }
     if (_tmp$3) {
-      if (_M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(out)) {
-        return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("fold without header"));
+      if (_M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(out)) {
+        return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("fold without header"));
       }
-      const old = _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(out, out.length - 1 | 0);
-      _M0MPC15array5Array3setGRP211localreview7mailbox6HeaderE(out, out.length - 1 | 0, new _M0TP211localreview7mailbox6Header(old.name, `${old.value} ${_M0MPC16string10StringView9to__owned(_M0MPC16string6String4trim(line, undefined))}`));
+      const old = _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(out, out.length - 1 | 0);
+      _M0MPC15array5Array3setGRP212liubin_2ddev7mailbox6HeaderE(out, out.length - 1 | 0, new _M0TP212liubin_2ddev7mailbox6Header(old.name, `${old.value} ${_M0MPC16string10StringView9to__owned(_M0MPC16string6String4trim(line, undefined))}`));
       continue;
     }
     let pos;
     const _bind$4 = ":";
     const _bind$5 = _M0MPC16string6String4find(line, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
     if (_bind$5 === undefined) {
-      return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("header missing colon"));
+      return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("header missing colon"));
     } else {
       const _Some = _bind$5;
       const _p = _Some;
@@ -7136,7 +7136,7 @@ function _M0FP211localreview7mailbox7headers(content) {
     }
     const name = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(line, 0, pos));
     if (name === "") {
-      return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("empty header name"));
+      return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("empty header name"));
     }
     const _it$2 = _M0MPC16string6String4iter(name);
     while (true) {
@@ -7153,20 +7153,20 @@ function _M0FP211localreview7mailbox7headers(content) {
         }
       }
       if (c <= 32 || (c >= 127 || c === 58)) {
-        return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid header name"));
+        return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid header name"));
       }
       continue;
     }
-    _M0MPC15array5Array4pushGsE(out, new _M0TP211localreview7mailbox6Header(name, _M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(line, pos + 1 | 0, undefined), undefined))));
+    _M0MPC15array5Array4pushGsE(out, new _M0TP212liubin_2ddev7mailbox6Header(name, _M0MPC16string10StringView9to__owned(_M0MPC16string10StringView4trim(_M0MPC16string6String11sub_2einner(line, pos + 1 | 0, undefined), undefined))));
     continue;
   }
-  return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox6HeaderERP211localreview7mailbox12MailboxErrorE2Ok(out);
+  return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox6HeaderERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(out);
 }
-function _M0FP211localreview7mailbox10mime__type(text) {
+function _M0FP212liubin_2ddev7mailbox10mime__type(text) {
   let kind;
   let params;
   _L: {
-    const _bind = _M0FP211localreview7mailbox23parse__mime__parameters(text);
+    const _bind = _M0FP212liubin_2ddev7mailbox23parse__mime__parameters(text);
     let _bind$2;
     if (_bind.$tag === 1) {
       const _ok = _bind;
@@ -7203,13 +7203,13 @@ function _M0FP211localreview7mailbox10mime__type(text) {
     _tmp = _tmp$2;
   }
   if (_tmp) {
-    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid MIME media type"));
+    return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid MIME media type"));
   }
-  return new _M0DTPC16result6ResultGUsRPB3MapGssEERP211localreview7mailbox12MailboxErrorE2Ok({ _0: kind, _1: params });
+  return new _M0DTPC16result6ResultGUsRPB3MapGssEERP212liubin_2ddev7mailbox12MailboxErrorE2Ok({ _0: kind, _1: params });
 }
-function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) {
+function _M0FP212liubin_2ddev7mailbox10mime__part(data, fallback, depth, budget) {
   if (depth > 32 || budget.remaining <= 0) {
-    return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME structure limit"));
+    return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME structure limit"));
   }
   budget.remaining = budget.remaining - 1 | 0;
   const head_end = new _M0TPB8MutLocalGiE(data.length);
@@ -7301,9 +7301,9 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
       }
       break _L;
     }
-    return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME headers must be UTF-8 or ASCII"));
+    return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME headers must be UTF-8 or ASCII"));
   }
-  const _bind = _M0FP211localreview7mailbox7headers(header_text);
+  const _bind = _M0FP212liubin_2ddev7mailbox7headers(header_text);
   let fields;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -7314,7 +7314,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
   let kind;
   let params;
   _L$2: {
-    const _bind$2 = _M0FP211localreview7mailbox12mime__header(fields, "content-type", fallback);
+    const _bind$2 = _M0FP212liubin_2ddev7mailbox12mime__header(fields, "content-type", fallback);
     let _tmp;
     if (_bind$2.$tag === 1) {
       const _ok = _bind$2;
@@ -7322,7 +7322,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
     } else {
       return _bind$2;
     }
-    const _bind$3 = _M0FP211localreview7mailbox10mime__type(_tmp);
+    const _bind$3 = _M0FP212liubin_2ddev7mailbox10mime__type(_tmp);
     let _bind$4;
     if (_bind$3.$tag === 1) {
       const _ok = _bind$3;
@@ -7336,7 +7336,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
     params = _params;
     break _L$2;
   }
-  const _bind$2 = _M0FP211localreview7mailbox12mime__header(fields, "content-transfer-encoding", "7bit");
+  const _bind$2 = _M0FP212liubin_2ddev7mailbox12mime__header(fields, "content-transfer-encoding", "7bit");
   let _tmp;
   if (_bind$2.$tag === 1) {
     const _ok = _bind$2;
@@ -7351,12 +7351,12 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
   const _bind$3 = "multipart/";
   if (_M0MPC16string6String11has__prefix(kind, new _M0TPC16string10StringView(_bind$3, 0, _bind$3.length))) {
     if (!_M0MPC15array5Array8containsGsE(["7bit", "8bit", "binary"], encoding)) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("encoded multipart container"));
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("encoded multipart container"));
     }
     let boundary;
     const _bind$4 = _M0MPB3Map3getGssE(params, "boundary");
     if (_bind$4 === undefined) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("missing multipart boundary"));
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("missing multipart boundary"));
     } else {
       const _Some = _bind$4;
       const _b = _Some;
@@ -7376,7 +7376,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
       _tmp$2 = _tmp$3;
     }
     if (_tmp$2) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid multipart boundary"));
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid multipart boundary"));
     }
     const _bind$5 = `--${boundary}`;
     const marker = _M0FPC28encoding4utf814encode_2einner(new _M0TPC16string10StringView(_bind$5, 0, _bind$5.length), false);
@@ -7493,7 +7493,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
                 part_end.val = part_end.val - 1 | 0;
               }
             }
-            const _bind$6 = _M0FP211localreview7mailbox10mime__part(_M0MPC15bytes9BytesView9to__owned(_M0MPC15bytes5Bytes12view_2einner(raw, begin, part_end.val)), kind === "multipart/digest" ? "message/rfc822" : "text/plain", depth + 1 | 0, budget);
+            const _bind$6 = _M0FP212liubin_2ddev7mailbox10mime__part(_M0MPC15bytes9BytesView9to__owned(_M0MPC15bytes5Bytes12view_2einner(raw, begin, part_end.val)), kind === "multipart/digest" ? "message/rfc822" : "text/plain", depth + 1 | 0, budget);
             let _tmp$5;
             if (_bind$6.$tag === 1) {
               const _ok = _bind$6;
@@ -7514,12 +7514,12 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
         break;
       }
     }
-    if (!closed.val || _M0MPC15array5Array9is__emptyGRP211localreview7mailbox6HeaderE(children)) {
-      return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("unterminated or empty multipart"));
+    if (!closed.val || _M0MPC15array5Array9is__emptyGRP212liubin_2ddev7mailbox6HeaderE(children)) {
+      return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("unterminated or empty multipart"));
     }
     body = $bytes_literal$0;
   } else {
-    const _bind$4 = _M0FP211localreview7mailbox16decode__transfer(raw, encoding);
+    const _bind$4 = _M0FP212liubin_2ddev7mailbox16decode__transfer(raw, encoding);
     let decoded;
     if (_bind$4.$tag === 1) {
       const _ok = _bind$4;
@@ -7528,7 +7528,7 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
       return _bind$4;
     }
     if (kind === "message/rfc822") {
-      const _bind$5 = _M0FP211localreview7mailbox10mime__part(decoded, "text/plain", depth + 1 | 0, budget);
+      const _bind$5 = _M0FP212liubin_2ddev7mailbox10mime__part(decoded, "text/plain", depth + 1 | 0, budget);
       let _tmp$2;
       if (_bind$5.$tag === 1) {
         const _ok = _bind$5;
@@ -7540,15 +7540,15 @@ function _M0FP211localreview7mailbox10mime__part(data, fallback, depth, budget) 
     }
     body = decoded;
   }
-  return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE2Ok(new _M0TP211localreview7mailbox8MimePart(fields, kind, params, body, children));
+  return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(new _M0TP212liubin_2ddev7mailbox8MimePart(fields, kind, params, body, children));
 }
-function _M0FP211localreview7mailbox11parse__mime(data) {
+function _M0FP212liubin_2ddev7mailbox11parse__mime(data) {
   if (data.length > 1048576) {
-    return new _M0DTPC16result6ResultGRP211localreview7mailbox8MimePartRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("MIME message limit"));
+    return new _M0DTPC16result6ResultGRP212liubin_2ddev7mailbox8MimePartRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("MIME message limit"));
   }
-  return _M0FP211localreview7mailbox10mime__part(data, "text/plain", 0, new _M0TP211localreview7mailbox10MimeBudget(512));
+  return _M0FP212liubin_2ddev7mailbox10mime__part(data, "text/plain", 0, new _M0TP212liubin_2ddev7mailbox10MimeBudget(512));
 }
-function _M0FP211localreview7mailbox10from__line(s) {
+function _M0FP212liubin_2ddev7mailbox10from__line(s) {
   const i = new _M0TPB8MutLocalGiE(0);
   while (true) {
     let _tmp;
@@ -7569,11 +7569,11 @@ function _M0FP211localreview7mailbox10from__line(s) {
   const _bind = "From ";
   return _M0MPC16string10StringView11has__prefix(_tmp, new _M0TPC16string10StringView(_bind, 0, _bind.length));
 }
-function _M0FP211localreview7mailbox13parse__mboxrd(source) {
+function _M0FP212liubin_2ddev7mailbox13parse__mboxrd(source) {
   if (source.length > 16777216) {
-    return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("mailbox exceeds 16 Mi UTF-16 units"));
+    return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("mailbox exceeds 16 Mi UTF-16 units"));
   }
-  const _bind = _M0FP211localreview7mailbox19normalize__newlines(source);
+  const _bind = _M0FP212liubin_2ddev7mailbox19normalize__newlines(source);
   let text;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -7582,11 +7582,11 @@ function _M0FP211localreview7mailbox13parse__mboxrd(source) {
     return _bind;
   }
   if (text === "") {
-    return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE2Ok([]);
+    return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE2Ok([]);
   }
   const _bind$2 = "From ";
   if (!_M0MPC16string6String11has__prefix(text, new _M0TPC16string10StringView(_bind$2, 0, _bind$2.length))) {
-    return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("mbox must start with envelope line"));
+    return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("mbox must start with envelope line"));
   }
   const out = [];
   const envelope = new _M0TPB8MutLocalGsE("");
@@ -7599,7 +7599,7 @@ function _M0FP211localreview7mailbox13parse__mboxrd(source) {
   while (true) {
     const i = _tmp;
     if (i < _bind$5) {
-      const line = _M0MPC16string10StringView9to__owned(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(lines, i));
+      const line = _M0MPC16string10StringView9to__owned(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(lines, i));
       if (i === (lines.length - 1 | 0) && line === "") {
         break;
       }
@@ -7611,13 +7611,13 @@ function _M0FP211localreview7mailbox13parse__mboxrd(source) {
           if (_M0MPC16string6String11has__suffix(_tmp$2, new _M0TPC16string10StringView(_bind$7, 0, _bind$7.length))) {
             content.val = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(content.val, 0, content.val.length - 1 | 0));
           }
-          _M0MPC15array5Array4pushGsE(out, new _M0TP211localreview7mailbox7Message(envelope.val, content.val));
+          _M0MPC15array5Array4pushGsE(out, new _M0TP212liubin_2ddev7mailbox7Message(envelope.val, content.val));
         }
         envelope.val = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(line, 5, undefined));
         const _tmp$2 = _M0MPC16string6String4trim(envelope.val, undefined);
         const _bind$7 = "";
         if (_M0IPC16string10StringViewPB2Eq5equal(_tmp$2, new _M0TPC16string10StringView(_bind$7, 0, _bind$7.length))) {
-          return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("empty envelope"));
+          return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("empty envelope"));
         }
         content.val = "";
       } else {
@@ -7625,7 +7625,7 @@ function _M0FP211localreview7mailbox13parse__mboxrd(source) {
         let _tmp$2;
         const _bind$7 = ">";
         if (_M0MPC16string6String11has__prefix(line, new _M0TPC16string10StringView(_bind$7, 0, _bind$7.length))) {
-          _tmp$2 = _M0FP211localreview7mailbox10from__line(line);
+          _tmp$2 = _M0FP212liubin_2ddev7mailbox10from__line(line);
         } else {
           _tmp$2 = false;
         }
@@ -7647,10 +7647,10 @@ function _M0FP211localreview7mailbox13parse__mboxrd(source) {
   if (_M0MPC16string6String11has__suffix(_tmp$2, new _M0TPC16string10StringView(_bind$6, 0, _bind$6.length))) {
     content.val = _M0MPC16string10StringView9to__owned(_M0MPC16string6String11sub_2einner(content.val, 0, content.val.length - 1 | 0));
   }
-  _M0MPC15array5Array4pushGsE(out, new _M0TP211localreview7mailbox7Message(envelope.val, content.val));
-  return new _M0DTPC16result6ResultGRPB5ArrayGRP211localreview7mailbox7MessageERP211localreview7mailbox12MailboxErrorE2Ok(out);
+  _M0MPC15array5Array4pushGsE(out, new _M0TP212liubin_2ddev7mailbox7Message(envelope.val, content.val));
+  return new _M0DTPC16result6ResultGRPB5ArrayGRP212liubin_2ddev7mailbox7MessageERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(out);
 }
-function _M0FP211localreview7mailbox14encode__mboxrd(messages) {
+function _M0FP212liubin_2ddev7mailbox14encode__mboxrd(messages) {
   const out = new _M0TPB8MutLocalGsE("");
   const _bind = messages.length;
   let _tmp = 0;
@@ -7685,10 +7685,10 @@ function _M0FP211localreview7mailbox14encode__mboxrd(messages) {
         _tmp$2 = _tmp$4;
       }
       if (_tmp$2) {
-        return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error46localreview_2fmailbox_2eMailboxError_2eInvalid("invalid envelope"));
+        return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE3Err(new _M0DTPC15error5Error47liubin_2ddev_2fmailbox_2eMailboxError_2eInvalid("invalid envelope"));
       }
       out.val = `${out.val}From ${message.envelope}\n`;
-      const _bind$3 = _M0FP211localreview7mailbox19normalize__newlines(message.content);
+      const _bind$3 = _M0FP212liubin_2ddev7mailbox19normalize__newlines(message.content);
       let body;
       if (_bind$3.$tag === 1) {
         const _ok = _bind$3;
@@ -7704,11 +7704,11 @@ function _M0FP211localreview7mailbox14encode__mboxrd(messages) {
       while (true) {
         const i = _tmp$4;
         if (i < _bind$6) {
-          const line = _M0MPC16string10StringView9to__owned(_M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(lines, i));
+          const line = _M0MPC16string10StringView9to__owned(_M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(lines, i));
           if (i === (lines.length - 1 | 0) && line === "") {
             break;
           }
-          out.val = `${out.val}${_M0FP211localreview7mailbox10from__line(line) ? ">" : ""}${line}\n`;
+          out.val = `${out.val}${_M0FP212liubin_2ddev7mailbox10from__line(line) ? ">" : ""}${line}\n`;
           _tmp$4 = i + 1 | 0;
           continue;
         } else {
@@ -7722,10 +7722,10 @@ function _M0FP211localreview7mailbox14encode__mboxrd(messages) {
       break;
     }
   }
-  return new _M0DTPC16result6ResultGsRP211localreview7mailbox12MailboxErrorE2Ok(out.val);
+  return new _M0DTPC16result6ResultGsRP212liubin_2ddev7mailbox12MailboxErrorE2Ok(out.val);
 }
-function _M0FP211localreview7mailbox14header__values(content, name) {
-  const _bind = _M0FP211localreview7mailbox7headers(content);
+function _M0FP212liubin_2ddev7mailbox14header__values(content, name) {
+  const _bind = _M0FP212liubin_2ddev7mailbox7headers(content);
   let _tmp;
   if (_bind.$tag === 1) {
     const _ok = _bind;
@@ -7733,12 +7733,12 @@ function _M0FP211localreview7mailbox14header__values(content, name) {
   } else {
     return _bind;
   }
-  return new _M0DTPC16result6ResultGRPB5ArrayGsERP211localreview7mailbox12MailboxErrorE2Ok(_M0MPC15array5Array3mapGRP211localreview7mailbox6HeadersE(_M0MPC15array5Array6filterGRP211localreview7mailbox6HeaderE(_tmp, (h) => _M0MPC16string6String9to__lower(h.name) === _M0MPC16string6String9to__lower(name)), (h) => h.value));
+  return new _M0DTPC16result6ResultGRPB5ArrayGsERP212liubin_2ddev7mailbox12MailboxErrorE2Ok(_M0MPC15array5Array3mapGRP212liubin_2ddev7mailbox6HeadersE(_M0MPC15array5Array6filterGRP212liubin_2ddev7mailbox6HeaderE(_tmp, (h) => _M0MPC16string6String9to__lower(h.name) === _M0MPC16string6String9to__lower(name)), (h) => h.value));
 }
-function _M0FP411localreview7mailbox3cmd3web3run(input) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web3run(input) {
   let _try_err;
   _L: {
-    const _bind = _M0FP211localreview7mailbox13parse__mboxrd(input);
+    const _bind = _M0FP212liubin_2ddev7mailbox13parse__mboxrd(input);
     let messages;
     if (_bind.$tag === 1) {
       const _ok = _bind;
@@ -7755,14 +7755,14 @@ function _M0FP411localreview7mailbox3cmd3web3run(input) {
     while (true) {
       const i = _tmp;
       if (i < _bind$3) {
-        const m = _M0MPC15array5Array2atGRP211localreview7mailbox7MessageE(messages, i);
+        const m = _M0MPC15array5Array2atGRP212liubin_2ddev7mailbox7MessageE(messages, i);
         const _string_builder = _M0MPB13StringBuilder21StringBuilder_2einner(10);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, "Message ");
         _M0MPB13StringBuilder13write__objectGiE(_string_builder, i + 1 | 0);
         _M0IPB13StringBuilderPB6Logger13write__string(_string_builder, ": ");
         const _tmp$2 = _M0MPB13StringBuilder10to__string(_string_builder);
         const _tmp$3 = m.envelope;
-        const _bind$4 = _M0FP211localreview7mailbox14header__values(m.content, "subject");
+        const _bind$4 = _M0FP212liubin_2ddev7mailbox14header__values(m.content, "subject");
         let _tmp$4;
         if (_bind$4.$tag === 1) {
           const _ok = _bind$4;
@@ -7783,7 +7783,7 @@ function _M0FP411localreview7mailbox3cmd3web3run(input) {
     }
     const _bind$4 = "\n\n";
     const _tmp$2 = _M0MPC15array5Array4joinGsE(lines, new _M0TPC16string10StringView(_bind$4, 0, _bind$4.length));
-    const _bind$5 = _M0FP211localreview7mailbox14encode__mboxrd(messages);
+    const _bind$5 = _M0FP212liubin_2ddev7mailbox14encode__mboxrd(messages);
     let _tmp$3;
     if (_bind$5.$tag === 1) {
       const _ok = _bind$5;
@@ -7796,12 +7796,12 @@ function _M0FP411localreview7mailbox3cmd3web3run(input) {
     return `${_tmp$2}\n\nCanonical mboxrd:\n${_tmp$3}`;
   }
   const e = _try_err;
-  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web13maildir__name(input) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web13maildir__name(input) {
   let _try_err;
   _L: {
-    const _bind = _M0FP211localreview7mailbox20parse__maildir__name(input);
+    const _bind = _M0FP212liubin_2ddev7mailbox20parse__maildir__name(input);
     let _tmp;
     if (_bind.$tag === 1) {
       const _ok = _bind;
@@ -7811,7 +7811,7 @@ function _M0FP411localreview7mailbox3cmd3web13maildir__name(input) {
       _try_err = _err._0;
       break _L;
     }
-    const _bind$2 = _M0MP211localreview7mailbox11MaildirName6encode(_tmp);
+    const _bind$2 = _M0MP212liubin_2ddev7mailbox11MaildirName6encode(_tmp);
     if (_bind$2.$tag === 1) {
       const _ok = _bind$2;
       return _ok._0;
@@ -7822,12 +7822,12 @@ function _M0FP411localreview7mailbox3cmd3web13maildir__name(input) {
     }
   }
   const e = _try_err;
-  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web14maildir__flags(input, flags) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web14maildir__flags(input, flags) {
   let _try_err;
   _L: {
-    const _bind = _M0FP211localreview7mailbox20parse__maildir__name(input);
+    const _bind = _M0FP212liubin_2ddev7mailbox20parse__maildir__name(input);
     let _tmp;
     if (_bind.$tag === 1) {
       const _ok = _bind;
@@ -7837,7 +7837,7 @@ function _M0FP411localreview7mailbox3cmd3web14maildir__flags(input, flags) {
       _try_err = _err._0;
       break _L;
     }
-    const _bind$2 = _M0MP211localreview7mailbox11MaildirName11with__flags(_tmp, flags);
+    const _bind$2 = _M0MP212liubin_2ddev7mailbox11MaildirName11with__flags(_tmp, flags);
     let _tmp$2;
     if (_bind$2.$tag === 1) {
       const _ok = _bind$2;
@@ -7847,7 +7847,7 @@ function _M0FP411localreview7mailbox3cmd3web14maildir__flags(input, flags) {
       _try_err = _err._0;
       break _L;
     }
-    const _bind$3 = _M0MP211localreview7mailbox11MaildirName6encode(_tmp$2);
+    const _bind$3 = _M0MP212liubin_2ddev7mailbox11MaildirName6encode(_tmp$2);
     if (_bind$3.$tag === 1) {
       const _ok = _bind$3;
       return _ok._0;
@@ -7858,9 +7858,9 @@ function _M0FP411localreview7mailbox3cmd3web14maildir__flags(input, flags) {
     }
   }
   const e = _try_err;
-  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web11mime__lines(part, out) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web11mime__lines(part, out) {
   const _tmp = part.media_type;
   const _bind = part.body;
   _M0MPC15array5Array4pushGsE(out, `${_tmp} ${_M0FPC28encoding6base6414encode_2einner(new _M0TPC15bytes9BytesView(_bind, 0, _bind.length), true)}`);
@@ -7871,7 +7871,7 @@ function _M0FP411localreview7mailbox3cmd3web11mime__lines(part, out) {
     const _ = _tmp$2;
     if (_ < _bind$3) {
       const child = _bind$2[_];
-      _M0FP411localreview7mailbox3cmd3web11mime__lines(child, out);
+      _M0FP412liubin_2ddev7mailbox3cmd3web11mime__lines(child, out);
       _tmp$2 = _ + 1 | 0;
       continue;
     } else {
@@ -7879,7 +7879,7 @@ function _M0FP411localreview7mailbox3cmd3web11mime__lines(part, out) {
     }
   }
 }
-function _M0FP411localreview7mailbox3cmd3web13mime__summary(data_base64) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web13mime__summary(data_base64) {
   let _try_err;
   _L: {
     const _bind = _M0FPC28encoding6base6414decode_2einner(new _M0TPC16string10StringView(data_base64, 0, data_base64.length), false);
@@ -7893,7 +7893,7 @@ function _M0FP411localreview7mailbox3cmd3web13mime__summary(data_base64) {
       break _L;
     }
     const lines = [];
-    const _bind$2 = _M0FP211localreview7mailbox11parse__mime(data);
+    const _bind$2 = _M0FP212liubin_2ddev7mailbox11parse__mime(data);
     let _tmp;
     if (_bind$2.$tag === 1) {
       const _ok = _bind$2;
@@ -7903,17 +7903,17 @@ function _M0FP411localreview7mailbox3cmd3web13mime__summary(data_base64) {
       _try_err = _err._0;
       break _L;
     }
-    _M0FP411localreview7mailbox3cmd3web11mime__lines(_tmp, lines);
+    _M0FP412liubin_2ddev7mailbox3cmd3web11mime__lines(_tmp, lines);
     const _bind$3 = "\n";
     return _M0MPC15array5Array4joinGsE(lines, new _M0TPC16string10StringView(_bind$3, 0, _bind$3.length));
   }
   const e = _try_err;
   return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRPC15error5ErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web15header__display(value) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web15header__display(value) {
   let _try_err;
   _L: {
-    const _bind = _M0FP211localreview7mailbox14decode__header(value);
+    const _bind = _M0FP212liubin_2ddev7mailbox14decode__header(value);
     if (_bind.$tag === 1) {
       const _ok = _bind;
       return _ok._0;
@@ -7924,9 +7924,9 @@ function _M0FP411localreview7mailbox3cmd3web15header__display(value) {
     }
   }
   const e = _try_err;
-  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web13body__display(base64_message) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web13body__display(base64_message) {
   let _try_err;
   _L: {
     const _bind = _M0FPC28encoding6base6414decode_2einner(new _M0TPC16string10StringView(base64_message, 0, base64_message.length), false);
@@ -7939,7 +7939,7 @@ function _M0FP411localreview7mailbox3cmd3web13body__display(base64_message) {
       _try_err = _err._0;
       break _L;
     }
-    const _bind$2 = _M0FP211localreview7mailbox11parse__mime(_tmp);
+    const _bind$2 = _M0FP212liubin_2ddev7mailbox11parse__mime(_tmp);
     let _tmp$2;
     if (_bind$2.$tag === 1) {
       const _ok = _bind$2;
@@ -7949,7 +7949,7 @@ function _M0FP411localreview7mailbox3cmd3web13body__display(base64_message) {
       _try_err = _err._0;
       break _L;
     }
-    const _bind$3 = _M0MP211localreview7mailbox8MimePart4text(_tmp$2);
+    const _bind$3 = _M0MP212liubin_2ddev7mailbox8MimePart4text(_tmp$2);
     if (_bind$3.$tag === 1) {
       const _ok = _bind$3;
       return _ok._0;
@@ -7962,12 +7962,12 @@ function _M0FP411localreview7mailbox3cmd3web13body__display(base64_message) {
   const e = _try_err;
   return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRPC15error5ErrorE(e))}`;
 }
-function _M0FP411localreview7mailbox3cmd3web16attachment__name(header) {
+function _M0FP412liubin_2ddev7mailbox3cmd3web16attachment__name(header) {
   let _try_err;
   _L: {
     let params;
     _L$2: {
-      const _bind = _M0FP211localreview7mailbox23parse__mime__parameters(header);
+      const _bind = _M0FP212liubin_2ddev7mailbox23parse__mime__parameters(header);
       let _bind$2;
       if (_bind.$tag === 1) {
         const _ok = _bind;
@@ -7991,9 +7991,9 @@ function _M0FP411localreview7mailbox3cmd3web16attachment__name(header) {
     }
   }
   const e = _try_err;
-  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP211localreview7mailbox12MailboxErrorE(e))}`;
+  return `ERROR: ${_M0IP016_24default__implPB4Show10to__stringGRPC15debug4ReprE(_M0MPC15debug4Repr4ReprGRP212liubin_2ddev7mailbox12MailboxErrorE(e))}`;
 }
 (() => {
 })();
-export { _M0FP411localreview7mailbox3cmd3web3run as run, _M0FP411localreview7mailbox3cmd3web13maildir__name as maildir_name, _M0FP411localreview7mailbox3cmd3web14maildir__flags as maildir_flags, _M0FP411localreview7mailbox3cmd3web13mime__summary as mime_summary, _M0FP411localreview7mailbox3cmd3web15header__display as header_display, _M0FP411localreview7mailbox3cmd3web13body__display as body_display, _M0FP411localreview7mailbox3cmd3web16attachment__name as attachment_name }
+export { _M0FP412liubin_2ddev7mailbox3cmd3web3run as run, _M0FP412liubin_2ddev7mailbox3cmd3web13maildir__name as maildir_name, _M0FP412liubin_2ddev7mailbox3cmd3web14maildir__flags as maildir_flags, _M0FP412liubin_2ddev7mailbox3cmd3web13mime__summary as mime_summary, _M0FP412liubin_2ddev7mailbox3cmd3web15header__display as header_display, _M0FP412liubin_2ddev7mailbox3cmd3web13body__display as body_display, _M0FP412liubin_2ddev7mailbox3cmd3web16attachment__name as attachment_name }
 //# sourceMappingURL=web.js.map
