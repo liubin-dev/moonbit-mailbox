@@ -1,5 +1,5 @@
 import {
-  "localreview/mailbox" @lib,
+  "liubin-dev/mailbox" @lib,
   "moonbitlang/core/encoding/base64",
 }
 
