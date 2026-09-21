@@ -1,6 +1,14 @@
 # mbox/maildir 邮箱格式
 
-邮箱文本归档和 Maildir 文件名状态解析。本地候选版 0.2.0，供比较和代码审查；尚未作为完整竞赛作品提交。
+## 获取与验证入口
+
+公开源码：[github.com/liubin-dev/moonbit-mailbox](https://github.com/liubin-dev/moonbit-mailbox)；MoonBit 模块名为 `liubin-dev/mailbox`。
+
+从源码运行：`git clone https://github.com/liubin-dev/moonbit-mailbox.git` 后进入该目录，按下文和 [TESTING.md](TESTING.md) 安装所需工具。仓库公开不等于已在 Mooncakes 发布，不承诺 `moon add` 当前可用。
+
+查看 [GitHub Actions](https://github.com/liubin-dev/moonbit-mailbox/actions) 时请核对 run 的 commit SHA；历史 evidence、旧 ZIP 与本地测试不能替代当前提交的 CI 结果。下文保留各版本的验证范围和兼容性限制。
+
+MoonBit 0.6.0 邮箱格式库：mboxrd、Maildir 文件名和 flags、MIME 树、编码头与扩展参数；Node 宿主提供实际 Maildir 文件操作。
 
 ## 运行
 
@@ -12,13 +20,13 @@ moon test
 moon run cmd/main
 ```
 
-也可在本目录运行 `./verify.ps1` 验证本项目。`pkg.generated.mbti` 是真实工具链生成的公共 API。命名空间 `localreview` 仅用于本地，正式发布前应替换为申请人的账号。
+也可在本目录运行 `./verify.ps1` 验证本项目。`pkg.generated.mbti` 是真实工具链生成的公共 API。当前模块名为 `liubin-dev/mailbox`；以 moon.mod 和生成的公共接口为准。
 
 ## 本版范围
 
 实现目标：mboxrd 分隔与转义、消息头折行、Maildir flags。
 
-未承诺：磁盘锁、文件系统变更、MIME 解码、完整 Python mailbox API。
+已提供下述 Maildir 磁盘适配与受限 MIME 解码；不承诺 mbox 磁盘锁、跨进程事务隔离或完整 Python mailbox API。
 
 ## 来源与实现方式
 
@@ -32,7 +40,7 @@ moon run cmd/main
 
 ## 下一阶段与明确限制
 
-增加流式字节接口、mboxo/mboxcl 方言和真实 Maildir 文件锁/原子写；当前仅 mboxrd 文本编解码，统一 LF，保留正文转义深度，空消息和终止换行存在标准化。
+仍需流式 mbox 字节接口、mboxo/mboxcl 方言和更强的故障持久性保证。mboxrd 文本编解码统一 LF，保留正文转义深度，空消息和终止换行存在标准化；已实现的 Maildir 发布和锁边界见下文。
 
 本分装包自带 `web/index.html`（用 `start-review.ps1` 启动）。`cmd/web/main.mbt` 为薄适配层，网页调用编译后的真实 MoonBit 模块。
 
@@ -46,11 +54,11 @@ moon run cmd/main
 
 打开 http://127.0.0.1:8779/web/ 。修改和测试源码需安装 MoonBit 与 Node.js，再运行 `./verify.ps1`。本机尚未将 MoonBit 加入 PATH 时，可传入 `-MoonPath`。独立包不捆绑编译器。
 
-仅含本项目源码和构建产物；没有上传仓库或发布包。`DUPLICATION.md`、`evidence/current-validation.json` 和本次分装清单 提供查重、测试和完整性资料。
+> 历史开发记录（以下发布/归档状态不代表当前仓库；当前入口见文首）：仅含本项目源码和构建产物；没有上传仓库或发布包。`DUPLICATION.md`、`evidence/current-validation.json` 和本次分装清单 提供查重、测试和完整性资料。
 
 ## 独立仓库工作流
 
-本目录是该项目后续开发的唯一主仓库，旧批次目录及 ZIP 为历史审查快照。没有 Git remote，没有共享构建目录，没有上级 moon.work。
+> 历史开发记录（以下发布/归档状态不代表当前仓库；当前入口见文首）：本目录是该项目后续开发的唯一主仓库，旧批次目录及 ZIP 为历史审查快照。没有 Git remote，没有共享构建目录，没有上级 moon.work。
 
 真实 CLI 支持输入参数、文件和标准输入：
 
