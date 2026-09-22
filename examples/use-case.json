@@ -1,0 +1,43 @@
+{
+  "title": "原始邮件导入 Maildir 后导出",
+  "scope": "原创合成邮件含非 UTF-8 字节；完整流程只写新的临时目录。",
+  "steps": [
+    {
+      "args": [
+        "tools/maildir-cli.mjs",
+        "import",
+        "{out}/maildir",
+        "examples/use-case/message.eml",
+        "--create",
+        "--key",
+        "example-message"
+      ]
+    },
+    {
+      "args": [
+        "tools/maildir-cli.mjs",
+        "flags",
+        "{out}/maildir",
+        "example-message",
+        "S"
+      ]
+    },
+    {
+      "args": [
+        "tools/maildir-cli.mjs",
+        "list",
+        "{out}/maildir"
+      ]
+    },
+    {
+      "args": [
+        "tools/maildir-cli.mjs",
+        "export",
+        "{out}/maildir",
+        "example-message",
+        "{out}/export.eml"
+      ]
+    }
+  ],
+  "expected": "导入与导出的 SHA256 相同，标记后位于 cur，flags=S；不重复解码 MIME。"
+}

@@ -1,0 +1,17 @@
+{
+  "project": "mailbox",
+  "title": "mboxrd 与 Maildir 邮件归档迁移工具",
+  "module": "liubin-dev/mailbox",
+  "version": "0.7.0",
+  "repository": "https://github.com/liubin-dev/moonbit-mailbox",
+  "status": "条件复审",
+  "remainingRisk": "与 MIME 库有重叠且事务/断电边界有限；本轮合成邮件不是真实客户归档。",
+  "actualUsersClaimed": false,
+  "anonymousCloneVerified": true,
+  "publicHead": "78598c07d673889d04daea172876f2df2b1f0e34",
+  "defaultBranch": "origin/main",
+  "localChangesPublished": false,
+  "proposalLines": 25,
+  "useCase": "原始邮件导入 Maildir 后导出",
+  "diff": "mailkit_12314、MoonMIME 等已经提供 MIME 解析；本项目保留这部分为辅助功能，不以首个 MIME 库申报。重点是 mbox/Maildir 归档存取和与 Python mailbox 的磁盘交换流程。"
+}

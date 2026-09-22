@@ -1,3 +1,5 @@
+> 当前增量：0.7.0 新增 tools/maildir-cli.mjs：原始 EML import/list/flags/export，SHA256 回执，重复键和已有输出拒绝；文件/断电语义沿用 Maildir 宿主边界。
+
 # 功能与兼容性边界
 
 ## 新增能力

@@ -1,9 +1,9 @@
 name = "liubin-dev/mailbox"
 
-version = "0.6.0"
+version = "0.7.0"
 
 license = "MIT"
 
 readme = "README.md"
 
-description = "邮箱文本归档和 Maildir 文件名状态解析"
+description = "mboxrd 与 Maildir 原始邮件归档工具"

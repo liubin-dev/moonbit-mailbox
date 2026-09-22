@@ -1,3 +1,5 @@
+> 2026-09-22 三份初审反馈后的当前判断：**条件复审**。与 MIME 库有重叠且事务/断电边界有限；本轮合成邮件不是真实客户归档。 本次差异说明：mailkit_12314、MoonMIME 等已经提供 MIME 解析；本项目保留这部分为辅助功能，不以首个 MIME 库申报。重点是 mbox/Maildir 归档存取和与 Python mailbox 的磁盘交换流程。 以下保留之前检索的固定提交与来源；此前“补足场景”不能理解为本次已解除价值异议。
+
 # mailbox 查重与定位 · 2026-09-22
 
 [fhh12341/mailkit_12314；oyjh0381/moonmime；moonmail](https://github.com/fhh12341/12314)。mailkit_12314、MoonMIME 等已经提供 MIME 解析；本项目保留这部分为辅助功能，不以首个 MIME 库申报。重点是 mbox/Maildir 归档存取和与 Python mailbox 的磁盘交换流程。
