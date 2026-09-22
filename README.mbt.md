@@ -20,4 +20,4 @@ test "Maildir flag updates preserve unique identity" {
 }
 ```
 
-限制：不操作磁盘邮箱，不提供锁、原子投递和完整 MIME 解析。
+本例只处理 Maildir 文件名；另有 Node Maildir 磁盘宿主，提供单 key 锁、文件同步和基于硬链接的不覆盖投递，见 [README.md](README.md)。该宿主面向用户掌控的私有目录，不保证外部程序遵守锁、目录 fsync、断电持久性或多操作事务；MoonBit MIME 解析也不是完整 MIME 兼容实现。
