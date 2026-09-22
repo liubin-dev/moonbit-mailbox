@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-22",
+  "project": "mailbox",
+  "package": "liubin-dev/mailbox",
+  "version": "0.6.0",
+  "code_base_commit_before_materials": "914cb14f07a986a560f1b135276f57093b1672de",
+  "core_checks": [
+    {
+      "command": [
+        "moon",
+        "test",
+        "--target",
+        "js"
+      ],
+      "exit": 0,
+      "seconds": 2.12,
+      "log": "mailbox-test---target-js.log"
+    },
+    {
+      "command": [
+        "moon",
+        "test",
+        "--target",
+        "wasm-gc"
+      ],
+      "exit": 0,
+      "seconds": 1.94,
+      "log": "mailbox-test---target-wasm-gc.log"
+    },
+    {
+      "command": [
+        "moon",
+        "build",
+        "--target",
+        "js"
+      ],
+      "exit": 0,
+      "seconds": 0.99,
+      "log": "mailbox-build---target-js.log"
+    }
+  ],
+  "workflow_checks": [
+    {
+      "command": [
+        "node",
+        "tools/test-maildir-store.mjs"
+      ],
+      "exit": 0,
+      "seconds": 0.64,
+      "log": "mailbox-workflow-0.log"
+    }
+  ],
+  "interpretation": "本轮在真实临时目录验证字节保存、拒绝覆盖、flags 和 Python mailbox 双向读写。",
+  "limit": "无 mbox 磁盘事务/锁；Maildir 没有目录 fsync 或断电持久性保证，其他客户端未必遵守本适配器锁。附件名称是显示文本，不能直接当输出路径。",
+  "remote_push_performed": false
+}
